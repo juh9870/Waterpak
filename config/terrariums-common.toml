@@ -1,0 +1,35 @@
+#Terrariums & Aquariums
+[general]
+	#Turn the tank customization screen off completely.
+	#
+	#Right-clicking a tank with an empty hand takes you inside it instead of
+	#opening the manager, and the server refuses every action the manager
+	#offers - biome, weather, size, scale, presets, textures and pick-up.
+	#
+	#Critter nets, spawn eggs, mob buckets and the axe lid toggle keep working,
+	#and so does stepping into a tank and building in it.
+	disableManagerScreen = false
+	#Stop players leaving a habitat by holding sneak.
+	#
+	#Intended for map-style packs, where walking out of a tank at will would
+	#let a player escape whatever the tank was built to put them in.
+	#
+	#WARNING: with this on, nothing inside a habitat lets an ordinary player
+	#out on their own. Give them a way back - a command block running
+	#'/terrariums leave @p' is the simplest. The command needs permission
+	#level 2, so command blocks and operators can run it and players cannot,
+	#which is what keeps the restriction meaningful.
+	disableSneakToLeave = false
+	#Silence every message the mod shows a player - the action bar lines and
+	#chat notices for entering and leaving, catching and homing creatures,
+	#picking a tank up, sweeping items and so on.
+	#
+	#For map packs that narrate everything themselves and do not want a mod
+	#talking over them.
+	#
+	#Two things are deliberately not silenced. Terrain generation feedback
+	#only appears from the manager's Generate Terrain button, which a pack
+	#silencing messages has almost certainly switched off already. And the
+	#'/terrariums debug' read-out stays, because it is a developer tool behind
+	#permission level 2 that would look broken if it printed nothing.
+	disableMessages = false

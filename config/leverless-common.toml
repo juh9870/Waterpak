@@ -1,0 +1,58 @@
+#leverless: laid out once. Your edits are kept; this line is what stops it being rewritten.
+
+#Items that invert a draggable lever when right-clicked on it, the way a wrench does
+#on the Create: Aeronautics throttle lever. An inverted lever emits the opposite signal.
+
+wrenches = ["create:wrench"]
+
+#Each lever is one [[levers]] table:
+#
+#  [[levers]]
+#      block = "create:analog_lever"
+#      positions = 16
+#      nbtKey = "State"
+#      flipped = false
+#      texture = "leverless:textures/gui/default_bar.png"
+#
+#  block      required. Unknown blocks are skipped, so entries for mods that are not
+#             installed are harmless.
+#  positions  stops on the lever. Worked out from the block when left out: the size of its
+#             power or level property, or 2 for a plain on/off block.
+#  nbtKey     for blocks that keep their signal in a block entity rather than a blockstate.
+#             Create's analog lever stores it under 'State'.
+#  flipped    reverses the drag, so pulling the mouse down lowers the lever. The slider
+#             follows, putting 0 at the bottom.
+#  texture    the on-screen slider drawn for this lever, so different levers can look
+#             different in the same world.
+#
+#Anything else with a 0-n power or level property, a powered flag, or an integer in its
+#block entity NBT can be added the same way.
+#
+#Slider textures
+#A replacement keeps the layout the mod draws from, on a 64x128 sheet:
+#
+#  frame    u0,  v0   24x104   the casing, a 4px border around the slot
+#  cursor   u24, v0   24x11    the handle that rides the slot
+#
+#Everything is drawn 1:1, so the pixels are the pixels.
+
+[[levers]]
+    block = "leverless:throttle_lever"
+[[levers]]
+    block = "minecraft:lever"
+    positions = 2
+    texture = "leverless:textures/gui/two_step_lever.png"
+[[levers]]
+    block = "create:analog_lever"
+    positions = 16
+    nbtKey = "State"
+[[levers]]
+    block = "dndecor:stepped_lever"
+    positions = 16
+    nbtKey = "State"
+[[levers]]
+    block = "dndecor:breaker_switch"
+    positions = 3
+    nbtKey = "State"
+[[levers]]
+    block = "supplementaries:crank"

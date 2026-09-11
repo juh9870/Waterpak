@@ -1,0 +1,23 @@
+{
+  "favorites": [
+    {
+      "stack": "item:simulated:physics_assembler"
+    },
+    {
+      "stack": "item:simulated:creative_physics_staff"
+    }
+  ],
+  "lookup_history": [
+    "item:createthrusters:blackstone_alloy_block",
+    "item:createthrusters:portable_contraption_controller",
+    "item:create_lnl:node_link"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

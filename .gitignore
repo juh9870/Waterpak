@@ -1,0 +1,127 @@
+# Minecraft
+local/
+saves/
+mods/
+logs/
+crash-reports/
+backups/
+resourcepacks/
+server-resource-packs/
+screenshots/
+downloads/
+modernfix/
+fancymenu_data/
+ESM/
+/.mixin.out/
+/.sable/
+/.cache/
+/cache/
+/data/
+/dynamic-data-pack-cache/
+/dynamic-resource-pack-cache/
+/xaero/
+/XaeroWaypoints_*/
+/Distant_Horizons_server_data/
+/.probe/
+/.pg-native/
+/sablexaeromaps/
+
+icon.png
+options.txt
+rhino.local.properties
+usercache.json
+usernamecache.json
+command_history.txt
+patchouli_data.json
+ponders_watched.json
+ponders_watched_azimuth.json
+servers.dat
+servers.dat_old
+hb_datastore.json
+
+# Pakku
+build/
+!.pakku/
+!pakku.jar
+!pakku.json
+!pakku-lock.json
+
+# Node.js
+**/node_modules/
+
+# dotenv
+.env
+
+# VSCode
+!/.vscode/*.code-workspace
+/.vscode/*
+
+# ProbeJS
+/kubejs/probe/
+/kubejs/config/probejs.json
+/kubejs/config/probe-settings.json
+
+# Misc
+/debug/
+hs_err_*.log
+
+# Client configs (with exceptions below)
+/config/**/*client.*
+
+!/config/sophisticatedstorage-client.toml
+!/config/**/darkmodeeverywhere-client.toml
+!/config/create-client.toml
+
+# Configs (generaly ones that tend to edit the date on launch)
+config/fml.toml
+config/jei/world/local/*
+config/fabric/indigo-renderer.properties
+config/roughlyenoughitems/pinyin*.properties
+config/trofers/general.json5
+config/roughlyenoughitems/config.json5
+config/sidebar_buttons.json
+config/oculus.properties
+config/modernfix-mixins.properties
+config/immediatelyfast.json
+config/ftbbackups2.json
+config/packetfixer.properties
+config/spark/tmp/
+config/spark/tmp-client/
+config/spark/activity.json
+config/roughlyenoughitems/hints.json
+config/voicechat/username-cache.json
+config/minihud/*
+config/embeddium-fingerprint.json
+config/chiselsandbits-common.toml
+config/defaultworldtype/world-presets.txt
+config/jecalculation/record.json
+config/jade/sort-order.json
+config/jei*
+config/embeddium++.toml
+config/emi.css
+config/darkmodeeverywhereshaders*
+config/ichunutil/themes/
+config/gtceu.yaml
+config/iris.properties
+config/zfastnoise.mixin.properties
+config/asyncparticles/asyncparticles-mixin.properties
+defaultconfigs/ftbultimine/ftbultimine-*.snbt
+config/forgeendertech/cached.dat
+config/forgeendertech/Biomes/
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride

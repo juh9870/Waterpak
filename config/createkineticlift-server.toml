@@ -1,0 +1,13 @@
+#.
+#Turbofan gameplay settings
+[turbofan]
+	#.
+	#.
+	#Whether Turbofans require and consume fuel to operate.
+	needsFuel = true
+	#.
+	#In pN
+	#The maximum thrust produced by a Turbofan at full throttle and max blade efficiency.
+	# Default: 14500.0
+	# Range: 0.0 ~ 3.4028234663852886E38
+	maxThrust = 14500.0

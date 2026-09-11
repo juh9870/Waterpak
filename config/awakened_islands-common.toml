@@ -1,0 +1,4 @@
+#(TEMPORARY) Height to spawn Islands:
+# Default: 164
+# Range: -32 ~ 520
+yspawn = 164
