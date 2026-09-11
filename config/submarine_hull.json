@@ -193,10 +193,6 @@
     "maxWaterDepth": 10,
     "implosionChance": 0.85
   },
-  "ca_harness:harness": {
-    "maxWaterDepth": 161,
-    "implosionChance": 0.05
-  },
   "cbc_autotarget:cartridge_collector": {
     "maxWaterDepth": 16,
     "implosionChance": 0.85
@@ -224,10 +220,6 @@
   "cbc_autotarget:machine_soul": {
     "maxWaterDepth": 58,
     "implosionChance": 0.65
-  },
-  "cbc_compact_mount:compact_cannon_mount": {
-    "maxWaterDepth": 120,
-    "implosionChance": 0.28
   },
   "compactflap:analog_compact_flap_bearing": {
     "maxWaterDepth": 55,
@@ -4081,26 +4073,6 @@
     "maxWaterDepth": 67,
     "implosionChance": 0.6
   },
-  "createkineticlift:control_seat": {
-    "maxWaterDepth": 10,
-    "implosionChance": 0.85
-  },
-  "createkineticlift:kerosene": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "createkineticlift:regular_turbofan_exhaust": {
-    "maxWaterDepth": 92,
-    "implosionChance": 0.45
-  },
-  "createkineticlift:regular_turbofan_intake": {
-    "maxWaterDepth": 151,
-    "implosionChance": 0.1
-  },
-  "createkineticlift:turbofan_structure": {
-    "maxWaterDepth": 151,
-    "implosionChance": 0.1
-  },
   "createproximity:andesite_player_detector": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
@@ -7548,6 +7520,22 @@
   "industrialhellscape:yellow_stair_railing": {
     "maxWaterDepth": 161,
     "implosionChance": 0.05
+  },
+  "just_gunpowder:gunpowder_block": {
+    "maxWaterDepth": 73,
+    "implosionChance": 0.56
+  },
+  "just_gunpowder:sulffur_ore_2": {
+    "maxWaterDepth": 117,
+    "implosionChance": 0.30333334
+  },
+  "just_gunpowder:sulfur_block": {
+    "maxWaterDepth": 110,
+    "implosionChance": 0.34
+  },
+  "just_gunpowder:sulfur_ore": {
+    "maxWaterDepth": 98,
+    "implosionChance": 0.41333333
   },
   "leverless:throttle_lever": {
     "maxWaterDepth": 9,
@@ -12652,18 +12640,6 @@
   "stabilized:stabilizer_bearing_link_block": {
     "maxWaterDepth": 300,
     "implosionChance": 0.05
-  },
-  "terrariums:aquarium": {
-    "maxWaterDepth": 4,
-    "implosionChance": 0.85
-  },
-  "terrariums:tank_light": {
-    "maxWaterDepth": 10,
-    "implosionChance": 0.85
-  },
-  "terrariums:terrarium": {
-    "maxWaterDepth": 4,
-    "implosionChance": 0.85
   },
   "unusualfishmod:chiseled_crimson_bricks": {
     "maxWaterDepth": 55,

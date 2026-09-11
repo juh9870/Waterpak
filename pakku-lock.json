@@ -208,43 +208,6 @@
             ]
         },
         {
-            "pakku_id": "XQn0aFAS2cTNiXgy",
-            "type": "MOD",
-            "side": "SERVER",
-            "slug": {
-                "modrinth": "awakened-islands"
-            },
-            "name": {
-                "modrinth": "Awakened Islands"
-            },
-            "id": {
-                "modrinth": "im5YgvNE"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "awakened_islands-1.0.0.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "alpha",
-                    "url": "https://cdn.modrinth.com/data/im5YgvNE/versions/ox7K9Qm5/awakened_islands-1.0.0.jar",
-                    "id": "ox7K9Qm5",
-                    "parent_id": "im5YgvNE",
-                    "hashes": {
-                        "sha512": "591b77951eb0217ca37d9ec23b24e67f510235c17b6ee9a1611e02a0507082c98b2c00685022d894bd33f9651acaa3db34ea4f5f79d8fc1e0449283051962565",
-                        "sha1": "cc9bddbcda1286b3d3939c4f65856b6fcfac5679"
-                    },
-                    "required_dependencies": [],
-                    "size": 10751,
-                    "date_published": "2026-04-26T09:27:41.260807Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "HHUySi7UOYLo3VrQ",
             "type": "MOD",
             "slug": {
@@ -396,43 +359,6 @@
                     ],
                     "size": 24780765,
                     "date_published": "2026-05-15T21:13:56.510727Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "wGQaAvdj5g7pVQNY",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "cbc-compact-mount"
-            },
-            "name": {
-                "modrinth": "CBC: Compact Mount"
-            },
-            "id": {
-                "modrinth": "rjti7mm0"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "cbc_compact_mount-1.2.2.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/rjti7mm0/versions/1ttsIjdZ/cbc_compact_mount-1.2.2.jar",
-                    "id": "1ttsIjdZ",
-                    "parent_id": "rjti7mm0",
-                    "hashes": {
-                        "sha512": "dbffa35e7451b9fa23fe24c02ad305bf7a0c2dda9e069bd362a2fe06bd5b4e447647e5d3acfddfa63b591dbbf5db262be6bdd2166b6b6f7bb786340d40732063",
-                        "sha1": "636f26509f919a8520c1d9a2ac3f536354684b7e"
-                    },
-                    "required_dependencies": [],
-                    "size": 641185,
-                    "date_published": "2026-05-04T00:02:29.792973Z"
                 }
             ]
         },
@@ -1025,47 +951,6 @@
             ]
         },
         {
-            "pakku_id": "4b1aBfdTK413X1Ux",
-            "pakku_links": [
-                "XFOo1L77KfsPOIVe"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "create-aeronautics-harness"
-            },
-            "name": {
-                "curseforge": "Create Aeronautics: Harness"
-            },
-            "id": {
-                "curseforge": "1590651"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "CreateAeronauticsHarness-1.21.1-1.0.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8350/8/CreateAeronauticsHarness-1.21.1-1.0.1.jar",
-                    "id": "8350008",
-                    "parent_id": "1590651",
-                    "hashes": {
-                        "sha1": "0adc35650c48aa7327d2e0d702b8d7626209da38",
-                        "md5": "de48b36d088c0da925a4d780668e6fcb"
-                    },
-                    "required_dependencies": [
-                        "676721"
-                    ],
-                    "size": 540834,
-                    "date_published": "2026-07-01T03:21:12.670Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "cuJ4XlRGqvU4JyHD",
             "type": "MOD",
             "side": "BOTH",
@@ -1242,42 +1127,6 @@
                     ],
                     "size": 243768,
                     "date_published": "2026-06-16T14:57:05.293Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "8zYbopullmWtMvHk",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "create-kinetic-lift"
-            },
-            "name": {
-                "curseforge": "Create Kinetic Lift"
-            },
-            "id": {
-                "curseforge": "1524796"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "createkineticlift-0.0.3a.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/8443/924/createkineticlift-0.0.3a.jar",
-                    "id": "8443924",
-                    "parent_id": "1524796",
-                    "hashes": {
-                        "sha1": "b40352711d62feb480c21799e6a1d12b9ff2e668",
-                        "md5": "d3fc417d5dc5fac898229b6fe8107f65"
-                    },
-                    "required_dependencies": [],
-                    "size": 330080,
-                    "date_published": "2026-07-16T12:37:48.210Z"
                 }
             ]
         },
@@ -3910,6 +3759,42 @@
             ]
         },
         {
+            "pakku_id": "Qd6dLQlp8s28mUxb",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "roadweaver"
+            },
+            "name": {
+                "curseforge": "RoadWeaver"
+            },
+            "id": {
+                "curseforge": "1358489"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "roadweaver-neoforge-2.3.1-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8554/254/roadweaver-neoforge-2.3.1-1.21.1.jar",
+                    "id": "8554254",
+                    "parent_id": "1358489",
+                    "hashes": {
+                        "sha1": "aa104b98f021b059833bf413d172eb045e2d9738",
+                        "md5": "81578622f5749268254f41f1aeea1868"
+                    },
+                    "required_dependencies": [],
+                    "size": 4427443,
+                    "date_published": "2026-08-01T13:15:22.450Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "uqAZJQdCFyaj9bmC",
             "type": "MOD",
             "slug": {
@@ -3942,6 +3827,55 @@
                     "required_dependencies": [],
                     "size": 12986136,
                     "date_published": "2026-08-18T01:14:08.973Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "4FQnpSR92qakoHmj",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "sable-mob-interactions"
+            },
+            "name": {
+                "modrinth": "Sable Mob Interactions"
+            },
+            "id": {
+                "modrinth": "8Li3hjCn"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "sablemobinteractions-1.0.1.jar",
+                    "mc_versions": [
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/8Li3hjCn/versions/OZ9o01JB/sablemobinteractions-1.0.1.jar",
+                    "id": "OZ9o01JB",
+                    "parent_id": "8Li3hjCn",
+                    "hashes": {
+                        "sha512": "13958523ed76fd33fa2c73ffeda665f1f48bc1c02599007396b8d1fa383852b8a612c1295a02ea52751a02acad7b5f2b5ad1f066946381cefda7eb855cded8fa",
+                        "sha1": "d22fd54b0e1b95def9a59405f0c4ee7910958671"
+                    },
+                    "required_dependencies": [
+                        "T9PomCSv"
+                    ],
+                    "size": 95932,
+                    "date_published": "2026-08-18T12:54:42.644040Z"
                 }
             ]
         },
@@ -4252,43 +4186,6 @@
             ]
         },
         {
-            "pakku_id": "pl5PtalQvUgIJnqD",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "terrariums-and-aquariums"
-            },
-            "name": {
-                "curseforge": "Terrariums and Aquariums!"
-            },
-            "id": {
-                "curseforge": "1635236"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "terrariums-2.0-MC1.21.1-NeoForge.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "forge",
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8613/71/terrariums-2.0-MC1.21.1-NeoForge.jar",
-                    "id": "8613071",
-                    "parent_id": "1635236",
-                    "hashes": {
-                        "sha1": "b64ebced2720a8d59d278f3774a348802ef91879",
-                        "md5": "b333deef549fd6ad735311e3629befc6"
-                    },
-                    "required_dependencies": [],
-                    "size": 1874834,
-                    "date_published": "2026-08-10T00:42:26.077Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "TLrEqTyHkRBuCdSy",
             "type": "MOD",
             "slug": {
@@ -4476,50 +4373,6 @@
                     "required_dependencies": [],
                     "size": 222430,
                     "date_published": "2026-08-15T20:24:31.200Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "B9ztdl9dhcLarUAz",
-            "type": "MOD",
-            "side": "SERVER",
-            "slug": {
-                "modrinth": "water-world"
-            },
-            "name": {
-                "modrinth": "Water World"
-            },
-            "id": {
-                "modrinth": "jXsMx71S"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "water-world-0.1.2.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1",
-                        "1.21.2",
-                        "1.21.3",
-                        "1.21.4"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "forge",
-                        "neoforge",
-                        "quilt"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/jXsMx71S/versions/oOCSdhpX/water-world-0.1.2.jar",
-                    "id": "oOCSdhpX",
-                    "parent_id": "jXsMx71S",
-                    "hashes": {
-                        "sha512": "c02ea235261f1877c51a44fc9579fe6689c1ff1ccb7959bd8592a41ade9b1054b41228784fe6dea645e3c85cc370d440d4e249e86011a735a1e5802b74bc0255",
-                        "sha1": "a9d57cd36c04346b6f53f46242896924cf894589"
-                    },
-                    "required_dependencies": [],
-                    "size": 2783597,
-                    "date_published": "2024-12-03T22:26:28.117956Z"
                 }
             ]
         },
