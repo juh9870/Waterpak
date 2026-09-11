@@ -3248,6 +3248,47 @@
             ]
         },
         {
+            "pakku_id": "ipMIYTgcW6HfQXt5",
+            "pakku_links": [
+                "5Xnrfk18ErURPHAg"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "open-loader"
+            },
+            "name": {
+                "curseforge": "Open Loader"
+            },
+            "id": {
+                "curseforge": "354339"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "OpenLoader-neoforge-1.21.1-21.1.5.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6546/293/OpenLoader-neoforge-1.21.1-21.1.5.jar",
+                    "id": "6546293",
+                    "parent_id": "354339",
+                    "hashes": {
+                        "sha1": "b4b49fa0bbefcecd41aaba60aca38c3658ac2c46",
+                        "md5": "1606e20d17ec0fa117cd6cabfea2c532"
+                    },
+                    "required_dependencies": [
+                        "1023259"
+                    ],
+                    "size": 35602,
+                    "date_published": "2025-05-19T08:08:36.070Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "RFnZtRwy1vFEDgIp",
             "pakku_links": [
                 "WxRFtpfWnYCrRcKP"
@@ -3449,6 +3490,42 @@
                     "required_dependencies": [],
                     "size": 324058,
                     "date_published": "2026-07-19T09:43:56.697Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "5Xnrfk18ErURPHAg",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "prickle"
+            },
+            "name": {
+                "curseforge": "Prickle"
+            },
+            "id": {
+                "curseforge": "1023259"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "prickle-neoforge-1.21.1-21.1.11.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6961/457/prickle-neoforge-1.21.1-21.1.11.jar",
+                    "id": "6961457",
+                    "parent_id": "1023259",
+                    "hashes": {
+                        "sha1": "5174059ecf97340a0de5ef211b938de26c4eaa36",
+                        "md5": "533c154fb306cd8043564ee1533873ce"
+                    },
+                    "required_dependencies": [],
+                    "size": 84812,
+                    "date_published": "2025-09-04T03:19:33.637Z"
                 }
             ]
         },
