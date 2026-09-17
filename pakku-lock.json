@@ -910,6 +910,42 @@
             ]
         },
         {
+            "pakku_id": "ZxscEGq1R7j9poXo",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ambush"
+            },
+            "name": {
+                "curseforge": "Create Aeronautics: AMBUSH"
+            },
+            "id": {
+                "curseforge": "1611008"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ambush-1.1.6.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/8862/186/ambush-1.1.6.jar",
+                    "id": "8862186",
+                    "parent_id": "1611008",
+                    "hashes": {
+                        "sha1": "90650a5c78484aef9c4d5712f44a1dcd4be0b1bf",
+                        "md5": "e0e04ccd7e44dbd4ad9c246eda41d5da"
+                    },
+                    "required_dependencies": [],
+                    "size": 1858717,
+                    "date_published": "2026-09-12T04:20:29.810Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "4xAU5s9a7lcPxqVe",
             "pakku_links": [
                 "XFOo1L77KfsPOIVe"
@@ -3832,42 +3868,6 @@
                     "required_dependencies": [],
                     "size": 76369,
                     "date_published": "2026-02-07T05:45:34.217Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "Qd6dLQlp8s28mUxb",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "roadweaver"
-            },
-            "name": {
-                "curseforge": "RoadWeaver"
-            },
-            "id": {
-                "curseforge": "1358489"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "roadweaver-neoforge-2.3.1-1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8554/254/roadweaver-neoforge-2.3.1-1.21.1.jar",
-                    "id": "8554254",
-                    "parent_id": "1358489",
-                    "hashes": {
-                        "sha1": "aa104b98f021b059833bf413d172eb045e2d9738",
-                        "md5": "81578622f5749268254f41f1aeea1868"
-                    },
-                    "required_dependencies": [],
-                    "size": 4427443,
-                    "date_published": "2026-08-01T13:15:22.450Z"
                 }
             ]
         },
