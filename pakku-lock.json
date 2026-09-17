@@ -4149,6 +4149,42 @@
             ]
         },
         {
+            "pakku_id": "ajAkewjDoJI0cjpo",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "simple-clouds"
+            },
+            "name": {
+                "curseforge": "Simple Clouds"
+            },
+            "id": {
+                "curseforge": "1121215"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "simpleclouds-0.7.3+1.21.1-all.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/6928/979/simpleclouds-0.7.3+1.21.1-all.jar",
+                    "id": "6928979",
+                    "parent_id": "1121215",
+                    "hashes": {
+                        "sha1": "b796263392bb5fce4a3c77c45273af3a1e63423c",
+                        "md5": "73acaa7c05f0650d4431d2117edde7d9"
+                    },
+                    "required_dependencies": [],
+                    "size": 2207822,
+                    "date_published": "2025-08-26T02:14:18.753Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "cq6R6WDnUK7Nm1MM",
             "type": "MOD",
             "slug": {
