@@ -41,7 +41,7 @@
     "placeWaypoints": false,
     "spawnCabinEnabled": true,
     "averagingRadius": 8,
-    "roadWidth": 9,
+    "roadWidth": 3,
     "roadSignsEnabled": true,
     "lampInterval": 32,
     "roadClearHeight": 4,

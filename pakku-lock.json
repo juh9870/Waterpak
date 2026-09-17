@@ -946,47 +946,6 @@
             ]
         },
         {
-            "pakku_id": "4xAU5s9a7lcPxqVe",
-            "pakku_links": [
-                "XFOo1L77KfsPOIVe"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "create-aeronautics-gadgets-and-gizmos"
-            },
-            "name": {
-                "curseforge": "Create Aeronautics: Gadgets & Gizmos"
-            },
-            "id": {
-                "curseforge": "1537945"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "gadgets-and-gizmos-bundled-V1.2.0.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8858/929/gadgets-and-gizmos-bundled-V1.2.0.jar",
-                    "id": "8858929",
-                    "parent_id": "1537945",
-                    "hashes": {
-                        "sha1": "9d28719965612d8728cd45cc551ca8ce5fb9219d",
-                        "md5": "15e2673fbcd60c985868c6e67eb21c8c"
-                    },
-                    "required_dependencies": [
-                        "676721"
-                    ],
-                    "size": 32857893,
-                    "date_published": "2026-09-11T16:31:24.093Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "cuJ4XlRGqvU4JyHD",
             "type": "MOD",
             "side": "BOTH",
@@ -1664,50 +1623,6 @@
             ]
         },
         {
-            "pakku_id": "TnuGbZeWyk9Xv9IQ",
-            "pakku_links": [
-                "XFOo1L77KfsPOIVe",
-                "QzIaYhhXUBkQsRpX"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "create-simulated-jet-engines-aero-propulsion"
-            },
-            "name": {
-                "curseforge": "Create: Simulated Jet Engines | Aero Propulsion | Create Aeronautics"
-            },
-            "id": {
-                "curseforge": "1603705"
-            },
-            "redistributable": false,
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "morepropulsion-1.4.0.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8746/527/morepropulsion-1.4.0.jar",
-                    "id": "8746527",
-                    "parent_id": "1603705",
-                    "hashes": {
-                        "sha1": "a5bad311eeecbf2aaa42eba081a86afb9a873cbc",
-                        "md5": "21ae893a32c2c0cf67f74b97da3aae68"
-                    },
-                    "required_dependencies": [
-                        "676721",
-                        "328085"
-                    ],
-                    "size": 969653,
-                    "date_published": "2026-08-27T13:15:58.913Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "ISdiqoPoVCvBJyJa",
             "pakku_links": [
                 "QzIaYhhXUBkQsRpX",
@@ -1949,6 +1864,43 @@
                     ],
                     "size": 75041,
                     "date_published": "2025-10-24T10:34:04.757Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "nVhrG4SYafZvJ1xm",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "drive-by-sable"
+            },
+            "name": {
+                "curseforge": "Drive-By-Sable"
+            },
+            "id": {
+                "curseforge": "1576519"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "drivebysable-r1.6.0.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8883/151/drivebysable-r1.6.0.jar",
+                    "id": "8883151",
+                    "parent_id": "1576519",
+                    "hashes": {
+                        "sha1": "aefe593fc5e1451f9c0f3e69c0d53687e3f3c893",
+                        "md5": "440c5b2778d6772b41efcfdd66d3b953"
+                    },
+                    "required_dependencies": [],
+                    "size": 1799411,
+                    "date_published": "2026-09-14T23:40:55.440Z"
                 }
             ]
         },
@@ -3248,6 +3200,65 @@
             ]
         },
         {
+            "pakku_id": "XW7pnu51WIxQij42",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "no-caves"
+            },
+            "name": {
+                "modrinth": "No Caves"
+            },
+            "id": {
+                "modrinth": "uZ30Htz0"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "no-caves-1.2.1.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11",
+                        "26.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/uZ30Htz0/versions/N1F4U5rj/no-caves-1.2.1.jar",
+                    "id": "N1F4U5rj",
+                    "parent_id": "uZ30Htz0",
+                    "hashes": {
+                        "sha512": "983ebdb4c6b1c03f0e026c314c96a17a322cd5b31bf949c4563eabc4996c019926feba29b5e51eff11f0b4123c5ec38bd3eb477df689c4ebd4a597198cddded3",
+                        "sha1": "dfc721afb5b342497be5e16a0ab14a1539fc72aa"
+                    },
+                    "required_dependencies": [],
+                    "size": 108921,
+                    "date_published": "2026-03-25T05:16:18.831870Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "bnUtPdVHrIz3v08y",
             "type": "MOD",
             "slug": {
@@ -3904,6 +3915,47 @@
                     "required_dependencies": [],
                     "size": 12986136,
                     "date_published": "2026-08-18T01:14:08.973Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "eivMvoZ5l2U3f6Di",
+            "pakku_links": [
+                "uqAZJQdCFyaj9bmC"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "sable-beyond"
+            },
+            "name": {
+                "curseforge": "Sable Beyond"
+            },
+            "id": {
+                "curseforge": "1543480"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "sablebeyond-neoforge-1.21.1-v0.5.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://edge.forgecdn.net/files/8365/98/sablebeyond-neoforge-1.21.1-v0.5.0.jar",
+                    "id": "8365098",
+                    "parent_id": "1543480",
+                    "hashes": {
+                        "sha1": "6040db8c52ddd2fe6e9c266a52df8865107e4124",
+                        "md5": "48fef14e16f5399d65ef7f862a131f38"
+                    },
+                    "required_dependencies": [
+                        "1312371"
+                    ],
+                    "size": 1290691,
+                    "date_published": "2026-07-03T19:15:50.577Z"
                 }
             ]
         },

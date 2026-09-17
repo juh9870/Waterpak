@@ -189,6 +189,10 @@
     "maxWaterDepth": 33,
     "implosionChance": 0.8
   },
+  "aeronautics_delivery_quests:delivery_quests_table": {
+    "maxWaterDepth": 73,
+    "implosionChance": 0.56
+  },
   "ballastmod:ballast_stones": {
     "maxWaterDepth": 10,
     "implosionChance": 0.85
@@ -6745,6 +6749,30 @@
     "maxWaterDepth": 120,
     "implosionChance": 0.28
   },
+  "drivebysable:backup_drive": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "drivebysable:cable_hub": {
+    "maxWaterDepth": 120,
+    "implosionChance": 0.28
+  },
+  "drivebysable:cable_typewriter_hub": {
+    "maxWaterDepth": 90,
+    "implosionChance": 0.46
+  },
+  "drivebysable:integrated_sensor_bus": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.56666666
+  },
+  "drivebysable:multi_channel_cable_bus": {
+    "maxWaterDepth": 131,
+    "implosionChance": 0.22
+  },
+  "drivebysable:network_anchor": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
   "hbs_foundation:empty_block": {
     "maxWaterDepth": 300,
     "implosionChance": 0.05
@@ -7520,22 +7548,6 @@
   "industrialhellscape:yellow_stair_railing": {
     "maxWaterDepth": 161,
     "implosionChance": 0.05
-  },
-  "just_gunpowder:gunpowder_block": {
-    "maxWaterDepth": 73,
-    "implosionChance": 0.56
-  },
-  "just_gunpowder:sulffur_ore_2": {
-    "maxWaterDepth": 117,
-    "implosionChance": 0.30333334
-  },
-  "just_gunpowder:sulfur_block": {
-    "maxWaterDepth": 110,
-    "implosionChance": 0.34
-  },
-  "just_gunpowder:sulfur_ore": {
-    "maxWaterDepth": 98,
-    "implosionChance": 0.41333333
   },
   "leverless:throttle_lever": {
     "maxWaterDepth": 9,
@@ -12252,6 +12264,22 @@
   "sable_player_ragdoll:ragdoll_seat": {
     "maxWaterDepth": 36,
     "implosionChance": 0.78
+  },
+  "sablewaves:anchor": {
+    "maxWaterDepth": 105,
+    "implosionChance": 0.37
+  },
+  "sablewaves:barometer": {
+    "maxWaterDepth": 26,
+    "implosionChance": 0.84
+  },
+  "sablewaves:current_locator": {
+    "maxWaterDepth": 110,
+    "implosionChance": 0.34
+  },
+  "sablewaves:tide_clock": {
+    "maxWaterDepth": 26,
+    "implosionChance": 0.84
   },
   "simulated:altitude_sensor": {
     "maxWaterDepth": 20,
