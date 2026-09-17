@@ -4035,6 +4035,42 @@
             ]
         },
         {
+            "pakku_id": "QC7Rn4jcKD9xQzYd",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "sablewaves"
+            },
+            "name": {
+                "curseforge": "Sablewaves"
+            },
+            "id": {
+                "curseforge": "1634962"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "sablewaves-2.23.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8869/381/sablewaves-2.23.2.jar",
+                    "id": "8869381",
+                    "parent_id": "1634962",
+                    "hashes": {
+                        "sha1": "6708f46d04fcfe5f3b4ba2bac1afaf376dcd9c32",
+                        "md5": "b2a96bb53cf90fe498abc3ed8f3aab1a"
+                    },
+                    "required_dependencies": [],
+                    "size": 181647,
+                    "date_published": "2026-09-13T02:02:32.750Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "XCnh13KUiq9CUNpL",
             "pakku_links": [
                 "XFOo1L77KfsPOIVe"
