@@ -38,6 +38,7 @@ ponders_watched_azimuth.json
 servers.dat
 servers.dat_old
 hb_datastore.json
+emi.json
 
 # Pakku
 build/

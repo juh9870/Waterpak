@@ -288,6 +288,47 @@
             ]
         },
         {
+            "pakku_id": "BZ4QMONWA3iltU5U",
+            "pakku_links": [
+                "VTXzwkkqcI4VDLc1"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "bathymetry"
+            },
+            "name": {
+                "curseforge": "Bathymetry"
+            },
+            "id": {
+                "curseforge": "1656052"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "bathymetry-1.0.3+1.21.1+neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8899/38/bathymetry-1.0.3+1.21.1+neoforge.jar",
+                    "id": "8899038",
+                    "parent_id": "1656052",
+                    "hashes": {
+                        "sha1": "00bc1e669f1a5879fce56b202db57944bb400f45",
+                        "md5": "d9ff5488634ec9ae9039a8b01b1c604b"
+                    },
+                    "required_dependencies": [
+                        "1399257"
+                    ],
+                    "size": 41357,
+                    "date_published": "2026-09-16T21:52:26.523Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "cP22jVafllI06yPb",
             "type": "MOD",
             "slug": {
@@ -1122,6 +1163,47 @@
                     ],
                     "size": 243768,
                     "date_published": "2026-06-16T14:57:05.293Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "2qTAJGDBe1NAXLoL",
+            "pakku_links": [
+                "QzIaYhhXUBkQsRpX"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-missiles"
+            },
+            "name": {
+                "curseforge": "Create Missiles"
+            },
+            "id": {
+                "curseforge": "1345893"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "createmissiles-1.0.3+neoforge-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8431/131/createmissiles-1.0.3+neoforge-1.21.1.jar",
+                    "id": "8431131",
+                    "parent_id": "1345893",
+                    "hashes": {
+                        "sha1": "4bce5c006184407bfa1932c3071491ef3a8d8fdf",
+                        "md5": "a55e7d2d50da82c27276abe96d0967b2"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 2871223,
+                    "date_published": "2026-07-14T14:30:14.643Z"
                 }
             ]
         },
@@ -2175,47 +2257,6 @@
             ]
         },
         {
-            "pakku_id": "HqLaGWm91cQNcCkW",
-            "pakku_links": [
-                "rK83kxpiC6DVPZ7M"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "find-my-blimp"
-            },
-            "name": {
-                "curseforge": "Find My Blimp"
-            },
-            "id": {
-                "curseforge": "1617286"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "hbs_aerowaypoint-neoforge-1.21.1-1.1.0.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8495/990/hbs_aerowaypoint-neoforge-1.21.1-1.1.0.jar",
-                    "id": "8495990",
-                    "parent_id": "1617286",
-                    "hashes": {
-                        "sha1": "c1642036867d6b2549102b7ffcbf44a555472a56",
-                        "md5": "9d60315e54efe854a5b9c2301baba4c8"
-                    },
-                    "required_dependencies": [
-                        "1229485"
-                    ],
-                    "size": 216975,
-                    "date_published": "2026-07-23T20:58:53.110Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "0PFohyT70fsdJ4dG",
             "pakku_links": [
                 "akey1JLGSj3MaJXT"
@@ -2450,47 +2491,6 @@
             ]
         },
         {
-            "pakku_id": "rK83kxpiC6DVPZ7M",
-            "pakku_links": [
-                "HHUySi7UOYLo3VrQ"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "hbs-foundation"
-            },
-            "name": {
-                "curseforge": "HB's Foundation"
-            },
-            "id": {
-                "curseforge": "1229485"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "hbs_foundation-neoforge-1.21.1-1.8.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8728/918/hbs_foundation-neoforge-1.21.1-1.8.1.jar",
-                    "id": "8728918",
-                    "parent_id": "1229485",
-                    "hashes": {
-                        "sha1": "455b149e60a3293e5581a4760d4d9eb5df3eb64d",
-                        "md5": "5f9e8ae5e9cde6b78ce74541814ccd97"
-                    },
-                    "required_dependencies": [
-                        "531761"
-                    ],
-                    "size": 506540,
-                    "date_published": "2026-08-25T04:29:24.127Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "9lDC8Qmo5YeKLJkU",
             "type": "MOD",
             "slug": {
@@ -2637,47 +2637,6 @@
                     "required_dependencies": [],
                     "size": 77127,
                     "date_published": "2025-04-10T17:20:19.160Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "X9b5SYtN8cKaxcdP",
-            "pakku_links": [
-                "cq6R6WDnUK7Nm1MM"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "irisshaders"
-            },
-            "name": {
-                "curseforge": "Iris Shaders"
-            },
-            "id": {
-                "curseforge": "455508"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/8242/804/iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
-                    "id": "8242804",
-                    "parent_id": "455508",
-                    "hashes": {
-                        "sha1": "1bd129cf7bce65d6b1c0543045f0620c98a0f885",
-                        "md5": "6b68276a6718656ec476cfac69dfe013"
-                    },
-                    "required_dependencies": [
-                        "394468"
-                    ],
-                    "size": 2540723,
-                    "date_published": "2026-06-13T15:58:55.503Z"
                 }
             ]
         },
@@ -3159,6 +3118,43 @@
                     "required_dependencies": [],
                     "size": 112984,
                     "date_published": "2025-09-09T22:40:53.220Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "VTXzwkkqcI4VDLc1",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "mossylib"
+            },
+            "name": {
+                "curseforge": "MossyLib"
+            },
+            "id": {
+                "curseforge": "1399257"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "MossyLib-1.5.0+1.21.1+neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8293/669/MossyLib-1.5.0+1.21.1+neoforge.jar",
+                    "id": "8293669",
+                    "parent_id": "1399257",
+                    "hashes": {
+                        "sha1": "c3ed14d35a7d95fc3b215ad5a2a604de4ff7b45c",
+                        "md5": "e7829c0230d7d5866e9d9f0957cc6f61"
+                    },
+                    "required_dependencies": [],
+                    "size": 179463,
+                    "date_published": "2026-06-21T14:02:17.887Z"
                 }
             ]
         },
@@ -3960,55 +3956,6 @@
             ]
         },
         {
-            "pakku_id": "4FQnpSR92qakoHmj",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "sable-mob-interactions"
-            },
-            "name": {
-                "modrinth": "Sable Mob Interactions"
-            },
-            "id": {
-                "modrinth": "8Li3hjCn"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "sablemobinteractions-1.0.1.jar",
-                    "mc_versions": [
-                        "1.21.1",
-                        "1.21.2",
-                        "1.21.3",
-                        "1.21.4",
-                        "1.21.5",
-                        "1.21.6",
-                        "1.21.7",
-                        "1.21.8",
-                        "1.21.9",
-                        "1.21.10",
-                        "1.21.11"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/8Li3hjCn/versions/OZ9o01JB/sablemobinteractions-1.0.1.jar",
-                    "id": "OZ9o01JB",
-                    "parent_id": "8Li3hjCn",
-                    "hashes": {
-                        "sha512": "13958523ed76fd33fa2c73ffeda665f1f48bc1c02599007396b8d1fa383852b8a612c1295a02ea52751a02acad7b5f2b5ad1f066946381cefda7eb855cded8fa",
-                        "sha1": "d22fd54b0e1b95def9a59405f0c4ee7910958671"
-                    },
-                    "required_dependencies": [
-                        "T9PomCSv"
-                    ],
-                    "size": 95932,
-                    "date_published": "2026-08-18T12:54:42.644040Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "N8yx763cVF3xqkGB",
             "type": "MOD",
             "slug": {
@@ -4042,47 +3989,6 @@
                     "required_dependencies": [],
                     "size": 1433160,
                     "date_published": "2026-06-21T18:04:11.707Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "LmhQ4AhMcYxtLlFk",
-            "pakku_links": [
-                "uqAZJQdCFyaj9bmC"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "sable-true-impact"
-            },
-            "name": {
-                "curseforge": "Sable: True Impact (For Create: Aeronautics)"
-            },
-            "id": {
-                "curseforge": "1544491"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "true_impact-0.5.7-delta.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/8429/394/true_impact-0.5.7-delta.jar",
-                    "id": "8429394",
-                    "parent_id": "1544491",
-                    "hashes": {
-                        "sha1": "1ab79100b36fedfe2f142f61365e40847f602dcd",
-                        "md5": "66537f19b644fe54c3e9e86c879cc1ae"
-                    },
-                    "required_dependencies": [
-                        "1312371"
-                    ],
-                    "size": 272427,
-                    "date_published": "2026-07-14T07:02:50.867Z"
                 }
             ]
         },

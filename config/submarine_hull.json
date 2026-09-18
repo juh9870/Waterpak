@@ -189,10 +189,6 @@
     "maxWaterDepth": 33,
     "implosionChance": 0.8
   },
-  "aeronautics_delivery_quests:delivery_quests_table": {
-    "maxWaterDepth": 73,
-    "implosionChance": 0.56
-  },
   "ballastmod:ballast_stones": {
     "maxWaterDepth": 10,
     "implosionChance": 0.85
@@ -4077,6 +4073,38 @@
     "maxWaterDepth": 67,
     "implosionChance": 0.6
   },
+  "createmissiles:annoying_jukebox": {
+    "maxWaterDepth": 300,
+    "implosionChance": 0.05
+  },
+  "createmissiles:assembly_panel": {
+    "maxWaterDepth": 120,
+    "implosionChance": 0.28
+  },
+  "createmissiles:control_panel": {
+    "maxWaterDepth": 120,
+    "implosionChance": 0.28
+  },
+  "createmissiles:flaming_fire": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createmissiles:frost_snow": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createmissiles:infernal_ash": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "createmissiles:launch_pad": {
+    "maxWaterDepth": 120,
+    "implosionChance": 0.28
+  },
+  "createmissiles:navigation_panel": {
+    "maxWaterDepth": 120,
+    "implosionChance": 0.28
+  },
   "createproximity:andesite_player_detector": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
@@ -4084,202 +4112,6 @@
   "createproximity:brass_player_detector": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
-  },
-  "createthrusters:acc_display": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "createthrusters:acc_display_block": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "createthrusters:acc_display_half_panel": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "createthrusters:acc_display_panel": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "createthrusters:acc_display_slab": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "createthrusters:advanced_contraption_controller": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "createthrusters:advanced_navigation_table": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "createthrusters:aileron_bearing": {
-    "maxWaterDepth": 64,
-    "implosionChance": 0.615
-  },
-  "createthrusters:aileron_bearing_link": {
-    "maxWaterDepth": 64,
-    "implosionChance": 0.615
-  },
-  "createthrusters:alternator": {
-    "maxWaterDepth": 55,
-    "implosionChance": 0.67
-  },
-  "createthrusters:analogue_contraption_controller": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "createthrusters:analogue_joystick": {
-    "maxWaterDepth": 36,
-    "implosionChance": 0.78
-  },
-  "createthrusters:andesite_cable": {
-    "maxWaterDepth": 9,
-    "implosionChance": 0.85
-  },
-  "createthrusters:bi_directional_gearshift": {
-    "maxWaterDepth": 55,
-    "implosionChance": 0.67
-  },
-  "createthrusters:bidirectional_gearbox": {
-    "maxWaterDepth": 55,
-    "implosionChance": 0.67
-  },
-  "createthrusters:blackstone_alloy_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.4
-  },
-  "createthrusters:claw": {
-    "maxWaterDepth": 55,
-    "implosionChance": 0.67
-  },
-  "createthrusters:contraption_network_linker_plane": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "createthrusters:copycat_double_button": {
-    "maxWaterDepth": 36,
-    "implosionChance": 0.78
-  },
-  "createthrusters:diagnostic_tablet": {
-    "maxWaterDepth": 45,
-    "implosionChance": 0.73
-  },
-  "createthrusters:double_button": {
-    "maxWaterDepth": 36,
-    "implosionChance": 0.78
-  },
-  "createthrusters:entity_launcher_anchor": {
-    "maxWaterDepth": 55,
-    "implosionChance": 0.67
-  },
-  "createthrusters:fuel_oxidizer": {
-    "maxWaterDepth": 55,
-    "implosionChance": 0.67
-  },
-  "createthrusters:gyro_redstone_bridge": {
-    "maxWaterDepth": 36,
-    "implosionChance": 0.78
-  },
-  "createthrusters:gyroscope_link": {
-    "maxWaterDepth": 36,
-    "implosionChance": 0.78
-  },
-  "createthrusters:industrial_motor": {
-    "maxWaterDepth": 55,
-    "implosionChance": 0.67
-  },
-  "createthrusters:launcher_endpoint": {
-    "maxWaterDepth": 1,
-    "implosionChance": 0.85
-  },
-  "createthrusters:physics_gantry_belt_wheel": {
-    "maxWaterDepth": 55,
-    "implosionChance": 0.67
-  },
-  "createthrusters:physics_gantry_carriage": {
-    "maxWaterDepth": 55,
-    "implosionChance": 0.67
-  },
-  "createthrusters:physics_gantry_shaft": {
-    "maxWaterDepth": 55,
-    "implosionChance": 0.67
-  },
-  "createthrusters:physics_staff_anchor": {
-    "maxWaterDepth": 18,
-    "implosionChance": 0.85
-  },
-  "createthrusters:powered_zipline": {
-    "maxWaterDepth": 55,
-    "implosionChance": 0.67
-  },
-  "createthrusters:rcs_thruster": {
-    "maxWaterDepth": 50,
-    "implosionChance": 0.7
-  },
-  "createthrusters:rope_knot": {
-    "maxWaterDepth": 3,
-    "implosionChance": 0.85
-  },
-  "createthrusters:scissor_piston": {
-    "maxWaterDepth": 64,
-    "implosionChance": 0.615
-  },
-  "createthrusters:scissor_piston_arm": {
-    "maxWaterDepth": 9,
-    "implosionChance": 0.85
-  },
-  "createthrusters:scissor_piston_link": {
-    "maxWaterDepth": 64,
-    "implosionChance": 0.615
-  },
-  "createthrusters:ship_control_module": {
-    "maxWaterDepth": 55,
-    "implosionChance": 0.67
-  },
-  "createthrusters:ship_coupler": {
-    "maxWaterDepth": 89,
-    "implosionChance": 0.46666667
-  },
-  "createthrusters:ship_dock": {
-    "maxWaterDepth": 55,
-    "implosionChance": 0.67
-  },
-  "createthrusters:shipping_manifest": {
-    "maxWaterDepth": 9,
-    "implosionChance": 0.85
-  },
-  "createthrusters:thruster": {
-    "maxWaterDepth": 55,
-    "implosionChance": 0.67
-  },
-  "createthrusters:thruster_bearing": {
-    "maxWaterDepth": 64,
-    "implosionChance": 0.615
-  },
-  "createthrusters:thruster_bearing_link": {
-    "maxWaterDepth": 64,
-    "implosionChance": 0.615
-  },
-  "createthrusters:universal_display_adapter": {
-    "maxWaterDepth": 46,
-    "implosionChance": 0.725
-  },
-  "createthrusters:variable_transmission": {
-    "maxWaterDepth": 55,
-    "implosionChance": 0.67
-  },
-  "createthrusters:vector_bearing": {
-    "maxWaterDepth": 64,
-    "implosionChance": 0.615
-  },
-  "createthrusters:vector_bearing_link": {
-    "maxWaterDepth": 64,
-    "implosionChance": 0.615
-  },
-  "createthrusters:virtual_orientation_source": {
-    "maxWaterDepth": 36,
-    "implosionChance": 0.78
   },
   "createwingsplus:angled_sail": {
     "maxWaterDepth": 1,
@@ -11780,162 +11612,6 @@
   "minecraft:zombie_wall_head": {
     "maxWaterDepth": 18,
     "implosionChance": 0.85
-  },
-  "morepropulsion:afterburner": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.43333334
-  },
-  "morepropulsion:centrifuge": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.43333334
-  },
-  "morepropulsion:combustion_chamber": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.43333334
-  },
-  "morepropulsion:compressor": {
-    "maxWaterDepth": 84,
-    "implosionChance": 0.5
-  },
-  "morepropulsion:engine_inlet": {
-    "maxWaterDepth": 84,
-    "implosionChance": 0.5
-  },
-  "morepropulsion:engine_mount": {
-    "maxWaterDepth": 112,
-    "implosionChance": 0.33333334
-  },
-  "morepropulsion:engine_nozzle": {
-    "maxWaterDepth": 84,
-    "implosionChance": 0.5
-  },
-  "morepropulsion:kerosene": {
-    "maxWaterDepth": 300,
-    "implosionChance": 0.05
-  },
-  "morepropulsion:large_afterburner": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.43333334
-  },
-  "morepropulsion:large_combustion_chamber": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.43333334
-  },
-  "morepropulsion:large_compressor": {
-    "maxWaterDepth": 84,
-    "implosionChance": 0.5
-  },
-  "morepropulsion:large_engine_inlet": {
-    "maxWaterDepth": 84,
-    "implosionChance": 0.5
-  },
-  "morepropulsion:large_engine_nozzle": {
-    "maxWaterDepth": 84,
-    "implosionChance": 0.5
-  },
-  "morepropulsion:large_turbine": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.56666666
-  },
-  "morepropulsion:large_turbojet_combustion_chamber": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.43333334
-  },
-  "morepropulsion:large_turbojet_compressor": {
-    "maxWaterDepth": 84,
-    "implosionChance": 0.5
-  },
-  "morepropulsion:large_turbojet_engine_nozzle": {
-    "maxWaterDepth": 84,
-    "implosionChance": 0.5
-  },
-  "morepropulsion:monstrous_afterburner": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.43333334
-  },
-  "morepropulsion:monstrous_combustion_chamber": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.43333334
-  },
-  "morepropulsion:monstrous_compressor": {
-    "maxWaterDepth": 84,
-    "implosionChance": 0.5
-  },
-  "morepropulsion:monstrous_engine_inlet": {
-    "maxWaterDepth": 84,
-    "implosionChance": 0.5
-  },
-  "morepropulsion:monstrous_engine_nozzle": {
-    "maxWaterDepth": 84,
-    "implosionChance": 0.5
-  },
-  "morepropulsion:monstrous_turbine": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.56666666
-  },
-  "morepropulsion:monstrous_turbojet_combustion_chamber": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.43333334
-  },
-  "morepropulsion:monstrous_turbojet_compressor": {
-    "maxWaterDepth": 84,
-    "implosionChance": 0.5
-  },
-  "morepropulsion:monstrous_turbojet_engine_nozzle": {
-    "maxWaterDepth": 84,
-    "implosionChance": 0.5
-  },
-  "morepropulsion:small_afterburner": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.43333334
-  },
-  "morepropulsion:small_combustion_chamber": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.43333334
-  },
-  "morepropulsion:small_compressor": {
-    "maxWaterDepth": 84,
-    "implosionChance": 0.5
-  },
-  "morepropulsion:small_engine_inlet": {
-    "maxWaterDepth": 84,
-    "implosionChance": 0.5
-  },
-  "morepropulsion:small_engine_nozzle": {
-    "maxWaterDepth": 84,
-    "implosionChance": 0.5
-  },
-  "morepropulsion:small_turbine": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.56666666
-  },
-  "morepropulsion:small_turbojet_combustion_chamber": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.43333334
-  },
-  "morepropulsion:small_turbojet_compressor": {
-    "maxWaterDepth": 84,
-    "implosionChance": 0.5
-  },
-  "morepropulsion:small_turbojet_engine_nozzle": {
-    "maxWaterDepth": 84,
-    "implosionChance": 0.5
-  },
-  "morepropulsion:turbine": {
-    "maxWaterDepth": 72,
-    "implosionChance": 0.56666666
-  },
-  "morepropulsion:turbojet_combustion_chamber": {
-    "maxWaterDepth": 95,
-    "implosionChance": 0.43333334
-  },
-  "morepropulsion:turbojet_compressor": {
-    "maxWaterDepth": 84,
-    "implosionChance": 0.5
-  },
-  "morepropulsion:turbojet_engine_nozzle": {
-    "maxWaterDepth": 84,
-    "implosionChance": 0.5
   },
   "offroad:borehead_bearing": {
     "maxWaterDepth": 67,
