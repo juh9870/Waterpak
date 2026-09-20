@@ -1,4 +1,5 @@
 after-probe:
+    find */jsconfig.json | xargs -d "\n" sed -i "s/\"checkJs\"\: false/\"checkJs\"\: true/"
     rg --files-with-matches --fixed-strings "let global: {};" ../.probe | xargs -d "\n" sed -i "s/let global\: {}\;/ /g"
 
 codegen:
@@ -14,6 +15,7 @@ codegen:
     @cat ./startup_scripts/utils.d.ts >> ./client_scripts/utils.gen.d.ts
     @cat ./startup_scripts/api.js >> ./server_scripts/api.gen.js
     @cat ./startup_scripts/api.js >> ./client_scripts/api.gen.js
+    @echo "./server_scripts/api.gen.js ./client_scripts/api.gen.js" | xargs sed -i "s/\".\/utils\"/\".\/utils.gen\"/" 
 
 fmt:
     npx @biomejs/biome@2.5.5 format --write

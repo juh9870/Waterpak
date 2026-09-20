@@ -1,5 +1,5 @@
-StartupEvents.registry("item", (event) => {
-	for (const bp of global.BLUEPRINTS) {
-		event.create("kubejs:blueprint_" + bp.id).texture("kubejs:item/blueprint");
-	}
+StartupEvents.registry('item', (event) => {
+  for (const bp of global.BLUEPRINTS) {
+    event.create(bp.item).texture('kubejs:item/blueprint');
+  }
 });

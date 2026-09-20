@@ -1,4 +1,3 @@
-
 /**
  * @import { RegistryTypes } from "@special/types"
  */
@@ -32,7 +31,7 @@
  * @type {Record<string, Record<string, number>>}
  */
 const PLACE_COST = {
-  'create:gearbox': { 'minecraft:iron_ingot': 3, 'minecraft:stick': 1 },
+  // 'create:gearbox': { 'minecraft:iron_ingot': 3, 'minecraft:stick': 1 },
 };
 
 /**
@@ -45,7 +44,7 @@ const PLACE_COST = {
 const PLACE_ALIASES = {
   'create:vertical_gearbox': 'create:gearbox',
   'create_connected:vertical_six_way_gearbox': 'create_connected:six_way_gearbox',
-  'create_connected:vertical_parallel_gearbox': 'create_connected:parallel_gearbox'
+  'create_connected:vertical_parallel_gearbox': 'create_connected:parallel_gearbox',
 };
 
 /**
@@ -95,14 +94,14 @@ const PLACE_SCRIPT_OPTS = {
 // ================================================================================
 //  ==============================================================================
 
-for(const group of global.MACHINE_GROUPS) {
-  for(const block of group.blocks) {
-    if(PLACE_ALIASES[block]) continue;
-    PLACE_COST[block] = group.cost
+for (const group of global.MACHINE_GROUPS) {
+  for (const block of group.blocks) {
+    if (PLACE_ALIASES[block]) continue;
+    PLACE_COST[block] = group.cost;
   }
 }
 
-console.log("Registered groups: ", PLACE_COST)
+console.log('Registered groups: ', PLACE_COST);
 
 /**
  *
@@ -261,7 +260,6 @@ if (PLACE_SCRIPT_OPTS.blueprintMode || PLACE_SCRIPT_OPTS.bloksDropIngredients) {
     let entity = /** @type {import("@package/net/minecraft/world/entity").$Entity} */ (
       /** @type {unknown} */ (event.player)
     );
-
 
     // No offhand pickup in this pack
     //
