@@ -1,24 +1,11 @@
 // priority: 999
 
-/**
- * @type {MachineGroupData[]}
- */
 global.MACHINE_GROUPS = [];
-
-/**
- * @type {MachineBlueprint[]}
- */
 global.BLUEPRINTS = [];
-
-/**
- * @type {Record<string, MachineBlueprint>}
- */
 global.KNOWN_BLUEPRINTS = {};
-
-/**
- * @type {RecipeInventoryItemClick[]}
- */
 global.RECIPE_INVENTORY_ITEM_CLICK = [];
+global.TAG_GROUPINGS = {};
+global.ITEM_FLIPS = [];
 
 const REG = {
   /**
@@ -31,10 +18,13 @@ const REG = {
       }
     }
     global.MACHINE_GROUPS.push(group);
-    let bps = [REG.blueprint(/** @type {RegistryTypes.Item} */ ('kubejs:blueprint/group/' + group.id))];
+    let bps = [REG.blueprint(/** @type {RegistryTypes.Item} */ ('kubejs:blueprint/' + group.id))];
     for (const item of group.blocks) {
       bps.push(REG.blueprint(API._blueprintForItemUnchecked(group.id, item)));
     }
+
+    REG.tagGroup('kubejs:blueprint/' + group.id, bps);
+    REG.tagGroup('kubejs:machinery/' + group.id, group.blocks);
 
     for (let i = 0; i < bps.length; i++) {
       let next = (i + 1) % bps.length;
@@ -59,5 +49,23 @@ const REG = {
     global.BLUEPRINTS.push(bp);
     global.KNOWN_BLUEPRINTS[id] = bp;
     return id;
+  },
+
+  /**
+   *
+   * @param {RegistryTypes.ItemTag | string} tag
+   * @param {TagGrouping | (RegistryTypes.Item[])} group
+   */
+  tagGroup: (tag, group) => {
+    if (Array.isArray(group)) {
+      group = {
+        items: group,
+        recipesWhitelist: [],
+      };
+    }
+    if (!group.recipesWhitelist) {
+      group.recipesWhitelist = [];
+    }
+    global.TAG_GROUPINGS[tag] = group;
   },
 };

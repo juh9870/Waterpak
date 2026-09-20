@@ -1774,6 +1774,47 @@
             ]
         },
         {
+            "pakku_id": "EDIaclrVRO2BfjcM",
+            "pakku_links": [
+                "QzIaYhhXUBkQsRpX"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-transmission"
+            },
+            "name": {
+                "curseforge": "Create: Transmission!"
+            },
+            "id": {
+                "curseforge": "1354280"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "createtransmission-1.2.2+neoforge-create6-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8646/664/createtransmission-1.2.2+neoforge-create6-1.21.1.jar",
+                    "id": "8646664",
+                    "parent_id": "1354280",
+                    "hashes": {
+                        "sha1": "60e020b39a243e4eca5d15e3c9299fcdf8ed20d2",
+                        "md5": "38ee78af4d8941533ce1bc2f2ffbcd77"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 250901,
+                    "date_published": "2026-08-14T11:43:46.747Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ISdiqoPoVCvBJyJa",
             "pakku_links": [
                 "QzIaYhhXUBkQsRpX",
@@ -2991,6 +3032,42 @@
                     ],
                     "size": 38630,
                     "date_published": "2025-11-12T09:21:55.690Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "daZb4mjt8flhAjqw",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "l2library"
+            },
+            "name": {
+                "curseforge": "L2 Library"
+            },
+            "id": {
+                "curseforge": "620203"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "l2library-3.0.8.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7584/599/l2library-3.0.8.jar",
+                    "id": "7584599",
+                    "parent_id": "620203",
+                    "hashes": {
+                        "sha1": "b41ecb7b33335259265b1b4dfae806cab801aeb4",
+                        "md5": "08cf4b2a2a746ced5ef1437f17eb9366"
+                    },
+                    "required_dependencies": [],
+                    "size": 973882,
+                    "date_published": "2026-02-06T14:37:21.990Z"
                 }
             ]
         },
@@ -4594,6 +4671,42 @@
                     "required_dependencies": [],
                     "size": 111811,
                     "date_published": "2025-09-10T15:53:55.387Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "sObHLV7dviQ4imxO",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "tag-stacker"
+            },
+            "name": {
+                "curseforge": "Tag Stacker"
+            },
+            "id": {
+                "curseforge": "1537624"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "TagStacker-1.21.1-1.1.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8060/77/TagStacker-1.21.1-1.1.0.jar",
+                    "id": "8060077",
+                    "parent_id": "1537624",
+                    "hashes": {
+                        "sha1": "e21e50b4434eea7acd1350c5043cd282d70a3346",
+                        "md5": "cbe7635d97298b6c5777137ca13f7430"
+                    },
+                    "required_dependencies": [],
+                    "size": 20769,
+                    "date_published": "2026-05-08T22:04:09.287Z"
                 }
             ]
         },

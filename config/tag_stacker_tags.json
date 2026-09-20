@@ -1,0 +1,10 @@
+[
+	"kubejs:blueprint/gearbox",
+	"kubejs:machinery/gearbox",
+	"kubejs:blueprint/actuation",
+	"kubejs:machinery/actuation",
+	"kubejs:blueprint/chain_drive",
+	"kubejs:machinery/chain_drive",
+	"kubejs:shaft",
+	"kubejs:belt"
+]

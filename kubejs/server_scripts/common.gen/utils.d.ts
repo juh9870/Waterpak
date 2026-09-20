@@ -1,9 +1,11 @@
-declare namespace global {
-  let MACHINE_GROUPS: MachineGroupData[];
-  let BLUEPRINTS: MachineBlueprint[];
-  let KNOWN_BLUEPRINTS: Record<string, MachineBlueprint>;
-  let RECIPE_INVENTORY_ITEM_CLICK: RecipeInventoryItemClick[];
-}
+declare const global: {
+  MACHINE_GROUPS: MachineGroupData[];
+  BLUEPRINTS: MachineBlueprint[];
+  KNOWN_BLUEPRINTS: Record<string, MachineBlueprint>;
+  RECIPE_INVENTORY_ITEM_CLICK: RecipeInventoryItemClick[];
+  TAG_GROUPINGS: Record<string, TagGrouping>;
+  ITEM_FLIPS: ItemFlip[];
+};
 
 declare module '@package/net/minecraft/world/item' {
   declare type $ItemStack_ =

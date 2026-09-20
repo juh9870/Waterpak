@@ -7813,6 +7813,18 @@
     "maxWaterDepth": 1,
     "implosionChance": 0.85
   },
+  "createtransmission:andesite_encased_transmission_chain": {
+    "maxWaterDepth": 13,
+    "implosionChance": 0.85
+  },
+  "createtransmission:brass_encased_transmission_chain": {
+    "maxWaterDepth": 13,
+    "implosionChance": 0.85
+  },
+  "createtransmission:transmission_chain": {
+    "maxWaterDepth": 13,
+    "implosionChance": 0.85
+  },
   "createwingsplus:angled_sail": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85

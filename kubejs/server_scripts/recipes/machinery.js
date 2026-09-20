@@ -12,7 +12,6 @@ ServerEvents.recipes((event) => {
     for (const bl of group.blocks) {
       event.remove({ output: bl });
       let bp = API.blueprintForItem(group.id, bl);
-      // event.recipes.oraculumworktables.engineer_shapeless(bl, ingredients).secondaryIngredients([bp]);
       event.custom({
         type: 'oraculumworktables:engineer_shapeless',
         result: Item.of(bl).toJson(),

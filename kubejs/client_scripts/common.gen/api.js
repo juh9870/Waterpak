@@ -3,7 +3,7 @@
 /**
  * @import { RegistryTypes } from "@special/types"
  * @import { $ItemStack_ as ItemStack } from '@package/net/minecraft/world/item'
- * @import { MachineGroupData, MachineBlueprint, EventPayload, RecipeInventoryItemClick } from "./types"
+ * @import { MachineGroupData, MachineBlueprint, EventPayload, RecipeInventoryItemClick, TagGrouping } from "./types"
  */
 
 const API = {

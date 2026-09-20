@@ -1,6 +1,5 @@
 export type MachineGroupData = {
   id: string;
-  blueprint: string;
   blocks: RegistryTypes.Item[];
   cost: Record<RegistryTypes.Item, number>;
 };
@@ -35,3 +34,15 @@ export type RecipeInventoryItemClick = {
 };
 
 export type RecipeInventoryItemClickAction = ['transform', ItemStack] | ['damage', number] | ['consume'] | ['keep'];
+
+export type TagGrouping = {
+  primary?: RegistryTypes.Item;
+  items: RegistryTypes.Item[];
+  recipesWhitelist: RegistryTypes.Item[];
+  noSelector?: boolean;
+};
+
+export type ItemFlip = {
+  a: RegistryTypes.Item;
+  b: RegistryTypes.Item;
+};
