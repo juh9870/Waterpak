@@ -262,19 +262,22 @@ if (PLACE_SCRIPT_OPTS.blueprintMode || PLACE_SCRIPT_OPTS.bloksDropIngredients) {
       /** @type {unknown} */ (event.player)
     );
 
-    // offhand wrench allows picking up blocks directly except for blueprint mode
-    if (event.player && !PLACE_SCRIPT_OPTS.blueprintMode && event.player.getOffHandItem().id === 'create:wrench') {
-      if (drops.size() === 1 && PLACE_ALIASES[drops.get(0).id]) {
-        // drop is from one of the hardcoded blocks, so don't care and let it work
-        return;
-      }
 
-      // give the item directly instead of drops
-      event.player.give(event.block.item);
-      event.level.destroyBlock(event.block.pos, false, entity);
-      event.cancel();
-      return;
-    }
+    // No offhand pickup in this pack
+    //
+    // offhand wrench allows picking up blocks directly except for blueprint mode
+    // if (event.player && !PLACE_SCRIPT_OPTS.blueprintMode && event.player.getOffHandItem().id === 'create:wrench') {
+    //   if (drops.size() === 1 && PLACE_ALIASES[drops.get(0).id]) {
+    //     // drop is from one of the hardcoded blocks, so don't care and let it work
+    //     return;
+    //   }
+
+    //   // give the item directly instead of drops
+    //   event.player.give(event.block.item);
+    //   event.level.destroyBlock(event.block.pos, false, entity);
+    //   event.cancel();
+    //   return;
+    // }
 
     if (drops.size() === 1) {
       let mappedBlock = PLACE_ALIASES[drops.get(0).id];
