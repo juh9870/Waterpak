@@ -126,3 +126,6 @@ $RECYCLE.BIN/
 .DS_Store
 .AppleDouble
 .LSOverride
+
+# fuck LLMs
+.github/agents/

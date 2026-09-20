@@ -1,0 +1,24 @@
+after-probe:
+    rg --files-with-matches --fixed-strings "let global: {};" ../.probe | xargs -d "\n" sed -i "s/let global\: {}\;/ /g"
+
+codegen:
+    @rm -f ./server_scripts/utils.gen.d.ts
+    @rm -f ./client_scripts/utils.gen.d.ts
+    @rm -f ./server_scripts/api.gen.js
+    @rm -f ./client_scripts/api.gen.js
+    @echo "// !!Generated file, do not edit!!! Edit this file in startup_scripts" > ./server_scripts/utils.gen.d.ts
+    @echo "// !!Generated file, do not edit!!! Edit this file in startup_scripts" > ./client_scripts/utils.gen.d.ts
+    @echo "// !!Generated file, do not edit!!! Edit this file in startup_scripts" > ./server_scripts/api.gen.js
+    @echo "// !!Generated file, do not edit!!! Edit this file in startup_scripts" > ./client_scripts/api.gen.js
+    @cat ./startup_scripts/utils.d.ts >> ./server_scripts/utils.gen.d.ts
+    @cat ./startup_scripts/utils.d.ts >> ./client_scripts/utils.gen.d.ts
+    @cat ./startup_scripts/api.js >> ./server_scripts/api.gen.js
+    @cat ./startup_scripts/api.js >> ./client_scripts/api.gen.js
+
+fmt:
+    npx @biomejs/biome@2.5.5 format --write
+
+check:
+    npx typescript@7 -p ./server_scripts/jsconfig.json
+    npx typescript@7 -p ./client_scripts/jsconfig.json
+    npx typescript@7 -p ./startup_scripts/jsconfig.json

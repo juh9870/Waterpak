@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "plugins": [],
-        "checkJs": false,
+        "checkJs": true,
         // Fully TS-compatible typing generation is not possible,
         // but turning off skipLibCheck can help debugging
         "skipLibCheck": true,
