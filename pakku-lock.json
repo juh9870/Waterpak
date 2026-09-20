@@ -440,6 +440,49 @@
             ]
         },
         {
+            "pakku_id": "f59i5KMWgMdW1Fuo",
+            "pakku_links": [
+                "WxRFtpfWnYCrRcKP",
+                "akey1JLGSj3MaJXT"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cirrus"
+            },
+            "name": {
+                "curseforge": "Cirrus"
+            },
+            "id": {
+                "curseforge": "1572354"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cirrus-neoforge-1.21.1-1.3.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8734/79/cirrus-neoforge-1.21.1-1.3.0.jar",
+                    "id": "8734079",
+                    "parent_id": "1572354",
+                    "hashes": {
+                        "sha1": "ed267ec1b565f5ec549c4d408970287e732c6143",
+                        "md5": "34694be9d9b4165df9338815d8a7c368"
+                    },
+                    "required_dependencies": [
+                        "667299",
+                        "419699"
+                    ],
+                    "size": 6432331,
+                    "date_published": "2026-08-25T19:50:29.320Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "oi5qllQD6XplsRWS",
             "pakku_links": [
                 "X1ZiuQjmQkixvOz1",
@@ -1403,6 +1446,46 @@
                     ],
                     "size": 430281,
                     "date_published": "2026-07-10T18:46:15.910Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "9AaZGxfUWdfqojby",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-let-the-adventure-begin"
+            },
+            "name": {
+                "curseforge": "Create: Let The Adventure Begin"
+            },
+            "id": {
+                "curseforge": "1007872"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "create_ltab-4.1.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8608/393/create_ltab-4.1.0.jar",
+                    "id": "8608393",
+                    "parent_id": "1007872",
+                    "hashes": {
+                        "sha1": "c5725961ba8585693a84cf06becb21e8f4b13f11",
+                        "md5": "c0795304aa146224a99ae6ca082e2e35"
+                    },
+                    "required_dependencies": [],
+                    "size": 2894822,
+                    "date_published": "2026-08-09T10:54:50.093Z"
                 }
             ]
         },
@@ -2998,6 +3081,42 @@
             ]
         },
         {
+            "pakku_id": "E7QU51llZ7C6Bdx3",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "selene"
+            },
+            "name": {
+                "curseforge": "Moonlight Lib"
+            },
+            "id": {
+                "curseforge": "499980"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "moonlight-1.21.1-3.6.6-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8929/425/moonlight-1.21.1-3.6.6-neoforge.jar",
+                    "id": "8929425",
+                    "parent_id": "499980",
+                    "hashes": {
+                        "sha1": "6a99f961fd6bf4964791e8c474dae1dcb2910ad4",
+                        "md5": "7f16cd8b81ad52b377eeb28bb4d0ae45"
+                    },
+                    "required_dependencies": [],
+                    "size": 2286632,
+                    "date_published": "2026-09-20T10:03:48.503Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "SwD4qmkOPkoV9D6Y",
             "type": "MOD",
             "slug": {
@@ -4057,42 +4176,6 @@
             ]
         },
         {
-            "pakku_id": "ajAkewjDoJI0cjpo",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "simple-clouds"
-            },
-            "name": {
-                "curseforge": "Simple Clouds"
-            },
-            "id": {
-                "curseforge": "1121215"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "simpleclouds-0.7.3+1.21.1-all.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/6928/979/simpleclouds-0.7.3+1.21.1-all.jar",
-                    "id": "6928979",
-                    "parent_id": "1121215",
-                    "hashes": {
-                        "sha1": "b796263392bb5fce4a3c77c45273af3a1e63423c",
-                        "md5": "73acaa7c05f0650d4431d2117edde7d9"
-                    },
-                    "required_dependencies": [],
-                    "size": 2207822,
-                    "date_published": "2025-08-26T02:14:18.753Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "cq6R6WDnUK7Nm1MM",
             "type": "MOD",
             "slug": {
@@ -4362,6 +4445,83 @@
             ]
         },
         {
+            "pakku_id": "9zdzYvWuKVQBsaxU",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "veil-lib"
+            },
+            "name": {
+                "curseforge": "Veil Lib"
+            },
+            "id": {
+                "curseforge": "1517006"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "veil-neoforge-1.21.1-4.5.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8835/215/veil-neoforge-1.21.1-4.5.0.jar",
+                    "id": "8835215",
+                    "parent_id": "1517006",
+                    "hashes": {
+                        "sha1": "1c506b969143edb0054986bd4f3401af98f60e15",
+                        "md5": "717c3b8d89a749103143be014f378113"
+                    },
+                    "required_dependencies": [],
+                    "size": 3399158,
+                    "date_published": "2026-09-08T04:54:32.740Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "wP9XCwwsYYXGUSQV",
+            "pakku_links": [
+                "E7QU51llZ7C6Bdx3"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "vista"
+            },
+            "name": {
+                "curseforge": "Vista"
+            },
+            "id": {
+                "curseforge": "1368607"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "vista-1.21.1-5.5.6-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8911/129/vista-1.21.1-5.5.6-neoforge.jar",
+                    "id": "8911129",
+                    "parent_id": "1368607",
+                    "hashes": {
+                        "sha1": "74fd6b930cb403692fe189b54d2a1fa535123d00",
+                        "md5": "bf31f4d9c1a11c035aa10700611e17a2"
+                    },
+                    "required_dependencies": [
+                        "499980"
+                    ],
+                    "size": 5777915,
+                    "date_published": "2026-09-18T11:46:15.167Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "7qvcYC8JQ4zPyouA",
             "type": "MOD",
             "slug": {
@@ -4509,6 +4669,53 @@
                     "required_dependencies": [],
                     "size": 1422680,
                     "date_published": "2026-09-10T11:11:31.753Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "qTAizXypaUfcZJmq",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "yeetusexperimentus"
+            },
+            "name": {
+                "curseforge": "Yeetus Experimentus"
+            },
+            "id": {
+                "curseforge": "635427"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "yeetusexperimentus-neoforge-87.0.0.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.8",
+                        "1.21.5",
+                        "1.21.4",
+                        "1.21.1",
+                        "1.21.6",
+                        "1.21.3",
+                        "1.21.7",
+                        "1.21.2",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5444/189/yeetusexperimentus-neoforge-87.0.0.jar",
+                    "id": "5444189",
+                    "parent_id": "635427",
+                    "hashes": {
+                        "sha1": "7132c346103d75a7c84da64b35b92e3a6f1ce3da",
+                        "md5": "146a7ff6596eff098dd1d07337ba88fe"
+                    },
+                    "required_dependencies": [],
+                    "size": 570057,
+                    "date_published": "2024-06-19T12:03:09.493Z"
                 }
             ]
         },
