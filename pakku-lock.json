@@ -3517,6 +3517,83 @@
             ]
         },
         {
+            "pakku_id": "zb6m2fOQKZdPTxgX",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "oraculum"
+            },
+            "name": {
+                "curseforge": "Oraculum"
+            },
+            "id": {
+                "curseforge": "1563530"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Oraculum-1.0-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8485/480/Oraculum-1.0-1.21.1.jar",
+                    "id": "8485480",
+                    "parent_id": "1563530",
+                    "hashes": {
+                        "sha1": "8d3fb343d289a7ca6db165a512a1763a6cc0339e",
+                        "md5": "b775ea67058d9c4ed378e6b45153c726"
+                    },
+                    "required_dependencies": [],
+                    "size": 128335,
+                    "date_published": "2026-07-22T10:16:13.677Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "8tYkytPxnvCqCyQ7",
+            "pakku_links": [
+                "zb6m2fOQKZdPTxgX"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "oraculumworktables"
+            },
+            "name": {
+                "curseforge": "OraculumWorktables"
+            },
+            "id": {
+                "curseforge": "1564433"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "OraculumWorktables-1.21.1-1.0.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8290/806/OraculumWorktables-1.21.1-1.0.1.jar",
+                    "id": "8290806",
+                    "parent_id": "1564433",
+                    "hashes": {
+                        "sha1": "55fac74ffb44ff91f473a4c2f2caaf55aa37b767",
+                        "md5": "df6e0a9fc3cf6e5a30cd6352a6aa09cd"
+                    },
+                    "required_dependencies": [
+                        "1563530"
+                    ],
+                    "size": 1206203,
+                    "date_published": "2026-06-21T04:10:26.233Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "RFnZtRwy1vFEDgIp",
             "pakku_links": [
                 "WxRFtpfWnYCrRcKP"
@@ -4558,43 +4635,30 @@
             ]
         },
         {
-            "pakku_id": "YHYwOvjschfbPzrp",
-            "pakku_links": [
-                "FIG0VDXGO7U1NcFG"
-            ],
+            "pakku_id": "uiaKgIMduENsT8Au",
             "type": "MOD",
             "slug": {
-                "curseforge": "tmrv"
+                "github": "Nolij/TooManyRecipeViewers"
             },
             "name": {
-                "curseforge": "TooManyRecipeViewers (TMRV)"
+                "github": "TooManyRecipeViewers"
             },
             "id": {
-                "curseforge": "1194921"
+                "github": "928669466"
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "toomanyrecipeviewers-0.9.0+mc.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "type": "github",
+                    "file_name": "toomanyrecipeviewers-0.9.1-dev.4+mc.21.1.jar",
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8336/857/toomanyrecipeviewers-0.9.0+mc.21.1.jar",
-                    "id": "8336857",
-                    "parent_id": "1194921",
+                    "url": "https://github.com/Nolij/TooManyRecipeViewers/releases/download/release/0.9.1-dev.4/toomanyrecipeviewers-0.9.1-dev.4+mc.21.1.jar",
+                    "id": "522863081",
+                    "parent_id": "928669466",
                     "hashes": {
-                        "sha1": "d82ca1db3f4323534b1ce5f43b94a5ae31f65edb",
-                        "md5": "43c678a25240ad380e308c4218c9b99a"
+                        "sha256": "dba21863ec8c2e1367a2c0f2bd50431af9efe38f44ea4703f782ce1889c45dec"
                     },
-                    "required_dependencies": [
-                        "580555"
-                    ],
-                    "size": 1241625,
-                    "date_published": "2026-06-28T20:48:06.290Z"
+                    "size": 1321844,
+                    "date_published": "2026-08-20T22:20:55Z"
                 }
             ]
         },

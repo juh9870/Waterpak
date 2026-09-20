@@ -1,0 +1,38 @@
+#The probability (0.0 - 1.0) to play the default meme craft sound when enableMemeCraftSound is true.
+#Default: 0.03
+# Default: 0.03
+# Range: 0.0 ~ 1.0
+memeCraftSoundChance = 0.03
+#Worktable fluid capacity in millibuckets.
+#Default: 4000
+# Default: 4000
+# Range: > 0
+fluidCapacityWorktable = 4000
+#Workstation fluid capacity in millibuckets.
+#Default: 8000
+# Default: 8000
+# Range: > 0
+fluidCapacityWorkstation = 8000
+#Set to true to allow non-tool items in toolboxes.
+#Default: false
+allowNonToolItemsInToolboxes = false
+#Set to true to enable log warnings for duplicate auto-generated recipe names.
+#Default: false
+enableDuplicateRecipeHashWarnings = false
+#Set to true to enable the default 'meme' craft sound for recipes that don't specify a 'craftSound'.
+#When enabled, crafting such a recipe has a chance (see memeCraftSoundChance) to play the meme sound.
+#Recipes that explicitly set 'craftSound' are unaffected by this option.
+#Default: false
+enableMemeCraftSound = false
+#Workshop fluid capacity in millibuckets.
+#Default: 16000
+# Default: 16000
+# Range: > 0
+fluidCapacityWorkshop = 16000
+#Set to true to hide the mod incompatibility message.
+#Default: false
+hideIncompatibilityMessage = false
+#If set to true, crafting tools must have sufficient durability remaining to perform the craft.
+#If set to false, this restriction is ignored.
+#Default: true
+restrictCraftMinimumDurability = true
