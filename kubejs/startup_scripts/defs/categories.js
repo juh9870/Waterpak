@@ -1,40 +1,25 @@
-/**
- * @type {MachineGroupData[]}
- */
-global.MACHINE_GROUPS = [
-  {
-    id: 'andesite',
-    blueprint: 'andesite',
-    blocks: [
-      'create_connected:parallel_gearbox',
-      'create_connected:vertical_parallel_gearbox',
-      'create_connected:six_way_gearbox',
-      'create_connected:vertical_six_way_gearbox',
-      'create:gearbox',
-      'create:vertical_gearbox',
-      'create_connected:inverted_clutch',
-      'create_connected:overstress_clutch',
-      'create_connected:centrifugal_clutch',
-      'create_connected:freewheel_clutch',
-      'create:clutch',
-      'simulated:directional_gearshift',
-      'create_connected:inverted_gearshift',
-      'create:gearshift',
-      'create:adjustable_chain_gearshift',
-    ],
-    cost: {
-      'create:andesite_casing': 1,
-      'create:cogwheel': 1,
-    },
+REG.machineGroup({
+  id: 'andesite',
+  blueprint: 'andesite',
+  blocks: [
+    'create_connected:parallel_gearbox',
+    'create_connected:vertical_parallel_gearbox',
+    'create_connected:six_way_gearbox',
+    'create_connected:vertical_six_way_gearbox',
+    'create:gearbox',
+    'create:vertical_gearbox',
+    'create_connected:inverted_clutch',
+    'create_connected:overstress_clutch',
+    'create_connected:centrifugal_clutch',
+    'create_connected:freewheel_clutch',
+    'create:clutch',
+    'simulated:directional_gearshift',
+    'create_connected:inverted_gearshift',
+    'create:gearshift',
+    'create:adjustable_chain_gearshift',
+  ],
+  cost: {
+    'create:andesite_casing': 1,
+    'create:cogwheel': 1,
   },
-];
-
-/**
- * @type {MachineBlueprint[]}
- */
-global.BLUEPRINTS = [
-  {
-    id: 'andesite',
-    item: 'kubejs:blueprint_andesite',
-  },
-];
+});

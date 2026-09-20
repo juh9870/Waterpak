@@ -1,6 +1,8 @@
 declare namespace global {
   let MACHINE_GROUPS: MachineGroupData[];
   let BLUEPRINTS: MachineBlueprint[];
+  let KNOWN_BLUEPRINTS: Record<string, MachineBlueprint>;
+  let RECIPE_INVENTORY_ITEM_CLICK: RecipeInventoryItemClick[];
 }
 
 declare module '@package/net/minecraft/world/item' {

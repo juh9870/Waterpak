@@ -2,21 +2,33 @@
 
 /**
  * @import { RegistryTypes } from "@special/types"
- * @import { MachineGroupData, MachineBlueprint, EventPayload } from "./types"
+ * @import { $ItemStack_ as ItemStack } from '@package/net/minecraft/world/item'
+ * @import { MachineGroupData, MachineBlueprint, EventPayload, RecipeInventoryItemClick } from "./types"
  */
 
 const API = {
   /**
+   * Returns blueprint ID for this item in a group
    *
-   * @param {string} id
-   * @returns {MachineBlueprint}
+   * @param {string} group
+   * @param {RegistryTypes.Item} item
+   * @return {RegistryTypes.Item}
    */
-  findBlueprint: (id) => {
-    for (const bp of global.BLUEPRINTS) {
-      if (bp.id === id) {
-        return bp;
-      }
+  blueprintForItem: (group, item) => {
+    let bp = API._blueprintForItemUnchecked(group, item);
+    if (!global.KNOWN_BLUEPRINTS[bp]) {
+      throw new Error("There is no blueprint for item '" + item + "' of group '" + group + "'");
     }
-    throw new Error("No blueprint is registered with ID '" + id + "'");
+    return bp;
+  },
+
+  /**
+   * @param {string} group
+   * @param {RegistryTypes.Item} item
+   * @return {RegistryTypes.Item}
+   */
+  _blueprintForItemUnchecked: (group, item) => {
+    let parts = item.split(':');
+    return /** @type {RegistryTypes.Item} */ ('kubejs:blueprint/' + group + '/' + parts[1]);
   },
 };

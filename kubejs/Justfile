@@ -3,10 +3,10 @@ after-probe:
     rg --files-with-matches --fixed-strings "let global: {};" ../.probe | xargs -d "\n" sed -i "s/let global\: {}\;/ /g"
 
 codegen:
-    @rm -f ./server_scripts/common.gen/*
-    @rm -f ./client_scripts/common.gen/*
-    @cp -r ./startup_scripts/common ./server_scripts/common.gen
-    @cp -r ./startup_scripts/common ./client_scripts/common.gen
+    @rm -rf ./server_scripts/common.gen/*
+    @rm -rf ./client_scripts/common.gen/*
+    @cp -r ./startup_scripts/common/* ./server_scripts/common.gen/
+    @cp -r ./startup_scripts/common/* ./client_scripts/common.gen/
 
 fmt:
     npx @biomejs/biome@2.5.5 format --write
