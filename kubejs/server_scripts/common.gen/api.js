@@ -1,9 +1,8 @@
-// !!Generated file, do not edit!!! Edit this file in startup_scripts
 // priority: 1000
 
 /**
  * @import { RegistryTypes } from "@special/types"
- * @import { MachineGroupData, MachineBlueprint, EventPayload } from "./utils.gen"
+ * @import { MachineGroupData, MachineBlueprint, EventPayload } from "./types"
  */
 
 const API = {

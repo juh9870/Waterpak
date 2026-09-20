@@ -2,7 +2,7 @@
 
 /**
  * @import { RegistryTypes } from "@special/types"
- * @import { MachineGroupData, MachineBlueprint, EventPayload } from "./utils"
+ * @import { MachineGroupData, MachineBlueprint, EventPayload } from "./types"
  */
 
 const API = {
