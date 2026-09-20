@@ -52,6 +52,42 @@
             ]
         },
         {
+            "pakku_id": "yrHylxYAtKoV4WRA",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "abyssal-decor"
+            },
+            "name": {
+                "curseforge": "Abyssal Decor"
+            },
+            "id": {
+                "curseforge": "964853"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "abyssal_decor_1.21.1_0.11.0_Neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/8672/733/abyssal_decor_1.21.1_0.11.0_Neoforge.jar",
+                    "id": "8672733",
+                    "parent_id": "964853",
+                    "hashes": {
+                        "sha1": "8033176da762df7e9455f6c8584b20b7461c707f",
+                        "md5": "e498d34da1e84888c5d78c269ba55a44"
+                    },
+                    "required_dependencies": [],
+                    "size": 10533318,
+                    "date_published": "2026-08-17T20:57:36.463Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "8ZsUX9lHYkmuq9u3",
             "pakku_links": [
                 "uqAZJQdCFyaj9bmC"
@@ -1819,6 +1855,42 @@
             ]
         },
         {
+            "pakku_id": "CHNKr8eFt9Ox5A4q",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "deeper-oceans"
+            },
+            "name": {
+                "curseforge": "Deeper Oceans"
+            },
+            "id": {
+                "curseforge": "714177"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "deeper-oceans-2.0.1-neoforge-21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8332/463/deeper-oceans-2.0.1-neoforge-21.1.jar",
+                    "id": "8332463",
+                    "parent_id": "714177",
+                    "hashes": {
+                        "sha1": "85d90c1e9155d3de8c6b0e6e84c003d4f2ff1ba1",
+                        "md5": "8eb9de02fb5592be1350753b37fd40c1"
+                    },
+                    "required_dependencies": [],
+                    "size": 123273,
+                    "date_published": "2026-06-28T02:30:27.770Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "FFMFp9wQDvvbxzK2",
             "pakku_links": [
                 "djJyJmm9XJq8cFqn"
@@ -2488,6 +2560,51 @@
             ]
         },
         {
+            "pakku_id": "pPH9phwfap2ypZ5J",
+            "pakku_links": [
+                "QzIaYhhXUBkQsRpX",
+                "GxoXsqyygwu61mTh",
+                "tXJ4YA7BN2ExwXyq"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "hollowmarch"
+            },
+            "name": {
+                "curseforge": "Hollowmarch"
+            },
+            "id": {
+                "curseforge": "1534779"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "hollowmarch-1.3.0-mc1.21.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8352/115/hollowmarch-1.3.0-mc1.21.1-neoforge.jar",
+                    "id": "8352115",
+                    "parent_id": "1534779",
+                    "hashes": {
+                        "sha1": "2e22a11f0b860bd7b9eda31ee9bde4e4435a0ce3",
+                        "md5": "395cbabe57bb62a6005507399ab1d72a"
+                    },
+                    "required_dependencies": [
+                        "328085",
+                        "388172",
+                        "412082"
+                    ],
+                    "size": 3151584,
+                    "date_published": "2026-07-01T13:22:18.890Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "9lDC8Qmo5YeKLJkU",
             "type": "MOD",
             "slug": {
@@ -2915,6 +3032,42 @@
             ]
         },
         {
+            "pakku_id": "Z81stz2qZNe1BBxP",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "lithostitched"
+            },
+            "name": {
+                "curseforge": "Lithostitched"
+            },
+            "id": {
+                "curseforge": "936015"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "lithostitched-1.8.0+beta6-neoforge-21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8819/894/lithostitched-1.8.0+beta6-neoforge-21.1.jar",
+                    "id": "8819894",
+                    "parent_id": "936015",
+                    "hashes": {
+                        "sha1": "b8526bb7fcfb844ce91513ab349c408dd1a8279e",
+                        "md5": "7b97d64f4a0e8f81ae43f7ae7e11d58b"
+                    },
+                    "required_dependencies": [],
+                    "size": 978169,
+                    "date_published": "2026-09-06T06:19:10.550Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "OtoYzomyQ2TfhxRE",
             "type": "MOD",
             "slug": {
@@ -3284,42 +3437,6 @@
                     "required_dependencies": [],
                     "size": 108921,
                     "date_published": "2026-03-25T05:16:18.831870Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "bnUtPdVHrIz3v08y",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "ocean-lily-pad-village"
-            },
-            "name": {
-                "curseforge": "Ocean Lily Pad Village"
-            },
-            "id": {
-                "curseforge": "1394882"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "ocean_lily_pad_village-1.0.1-neoforge-1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7278/596/ocean_lily_pad_village-1.0.1-neoforge-1.21.1.jar",
-                    "id": "7278596",
-                    "parent_id": "1394882",
-                    "hashes": {
-                        "sha1": "e5a0f27697ba71f2b41559404947703e04a4fd50",
-                        "md5": "605627416ff151d59d8b89b876768929"
-                    },
-                    "required_dependencies": [],
-                    "size": 495382,
-                    "date_published": "2025-11-30T16:05:07.950Z"
                 }
             ]
         },
@@ -4290,6 +4407,126 @@
             ]
         },
         {
+            "pakku_id": "RaPTzcVLrNCPFqCB",
+            "type": "DATA_PACK",
+            "slug": {
+                "curseforge": "sunken-spires"
+            },
+            "name": {
+                "curseforge": "Sunken Spires"
+            },
+            "id": {
+                "curseforge": "1367962"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Sunken_Spires_1.21.zip",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.5",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.4",
+                        "1.21.3",
+                        "1.21.7",
+                        "1.21.1",
+                        "1.21.6",
+                        "1.21.2"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7123/675/Sunken_Spires_1.21.zip",
+                    "id": "7123675",
+                    "parent_id": "1367962",
+                    "hashes": {
+                        "sha1": "abb0a240a434a534c2df282b3589a9e2147e730d",
+                        "md5": "684cda8a0094b2fc9720969caa75e39c"
+                    },
+                    "required_dependencies": [],
+                    "size": 415262,
+                    "date_published": "2025-10-19T03:52:37.220Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "tXJ4YA7BN2ExwXyq",
+            "pakku_links": [
+                "E7QU51llZ7C6Bdx3"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "supplementaries"
+            },
+            "name": {
+                "curseforge": "Supplementaries"
+            },
+            "id": {
+                "curseforge": "412082"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "supplementaries-1.21.1-3.9.9-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8852/720/supplementaries-1.21.1-3.9.9-neoforge.jar",
+                    "id": "8852720",
+                    "parent_id": "412082",
+                    "hashes": {
+                        "sha1": "06ed05381a5653d90398dc6ebf3ad1154add6374",
+                        "md5": "68826f7de4c0b7c71a8853d80680423f"
+                    },
+                    "required_dependencies": [
+                        "499980"
+                    ],
+                    "size": 13548968,
+                    "date_published": "2026-09-10T19:12:54.583Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "TUflliT0YOMYhDNj",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "survival-island"
+            },
+            "name": {
+                "curseforge": "Survival island"
+            },
+            "id": {
+                "curseforge": "364426"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "survivalisland-forge-0.3.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6983/426/survivalisland-forge-0.3.1.jar",
+                    "id": "6983426",
+                    "parent_id": "364426",
+                    "hashes": {
+                        "sha1": "280ce8c37c071d1d0a777afda36851b49edd6f50",
+                        "md5": "6faa1648fd36554d2b2e6d9aac8f5213"
+                    },
+                    "required_dependencies": [],
+                    "size": 111811,
+                    "date_published": "2025-09-10T15:53:55.387Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "TLrEqTyHkRBuCdSy",
             "type": "MOD",
             "slug": {
@@ -4364,6 +4601,42 @@
                     ],
                     "size": 1241625,
                     "date_published": "2026-06-28T20:48:06.290Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "kjlLKHmpDIo3mVrY",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "underwater-village"
+            },
+            "name": {
+                "curseforge": "Underwater Village - Oceanic Structures"
+            },
+            "id": {
+                "curseforge": "1228716"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "underwater_village-1.0.2-neoforge-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6410/823/underwater_village-1.0.2-neoforge-1.21.1.jar",
+                    "id": "6410823",
+                    "parent_id": "1228716",
+                    "hashes": {
+                        "sha1": "0adcea413b73bad85a5dbb7f18e80576378817e2",
+                        "md5": "489fc7f95b812d190f4e31d31c8f9c3a"
+                    },
+                    "required_dependencies": [],
+                    "size": 386146,
+                    "date_published": "2025-04-11T13:55:39.720Z"
                 }
             ]
         },
@@ -4518,6 +4791,43 @@
                     ],
                     "size": 5777915,
                     "date_published": "2026-09-18T11:46:15.167Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "3vBtI0Bwykfpketf",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "wits"
+            },
+            "name": {
+                "curseforge": "WITS (What Is This Structure?)"
+            },
+            "id": {
+                "curseforge": "909375"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "wits-neoforge-1.3.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8412/915/wits-neoforge-1.3.1.jar",
+                    "id": "8412915",
+                    "parent_id": "909375",
+                    "hashes": {
+                        "sha1": "a03b6bd7d05bb1955036a9cd37e0e14121193d3e",
+                        "md5": "a86ece7e27d1463ea1b9a84abb4649b2"
+                    },
+                    "required_dependencies": [],
+                    "size": 11148,
+                    "date_published": "2026-07-11T14:58:12.917Z"
                 }
             ]
         },
