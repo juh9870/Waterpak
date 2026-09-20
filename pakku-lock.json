@@ -865,47 +865,6 @@
             ]
         },
         {
-            "pakku_id": "tJNGgC75HO3iQomu",
-            "pakku_links": [
-                "XFOo1L77KfsPOIVe"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "create-aeronautics-discovery"
-            },
-            "name": {
-                "curseforge": "Create Aeronautics Discovery"
-            },
-            "id": {
-                "curseforge": "1580189"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "aeronauticsdiscovery-2.1.2.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8843/733/aeronauticsdiscovery-2.1.2.jar",
-                    "id": "8843733",
-                    "parent_id": "1580189",
-                    "hashes": {
-                        "sha1": "8c99e7af87a9fba697c941736ee8b1da69698612",
-                        "md5": "a680be45217cbc91221c6d3a6b5022d9"
-                    },
-                    "required_dependencies": [
-                        "676721"
-                    ],
-                    "size": 593520,
-                    "date_published": "2026-09-09T12:42:06.113Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "1tWDImtIIcj05vTJ",
             "pakku_links": [
                 "XFOo1L77KfsPOIVe",
@@ -1444,51 +1403,6 @@
                     ],
                     "size": 430281,
                     "date_published": "2026-07-10T18:46:15.910Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "z3OOy7ISZVqetURv",
-            "pakku_links": [
-                "QzIaYhhXUBkQsRpX",
-                "XFOo1L77KfsPOIVe",
-                "uqAZJQdCFyaj9bmC"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "create-hostile-skies"
-            },
-            "name": {
-                "curseforge": "Create: Hostile Skies"
-            },
-            "id": {
-                "curseforge": "1629101"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "hostile_skies-0.2.0.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/8700/837/hostile_skies-0.2.0.jar",
-                    "id": "8700837",
-                    "parent_id": "1629101",
-                    "hashes": {
-                        "sha1": "a62be49bfc3aa5993d41108648f4577c253e2618",
-                        "md5": "02896387d17176e2c02eedf876014ae4"
-                    },
-                    "required_dependencies": [
-                        "328085",
-                        "676721",
-                        "1312371"
-                    ],
-                    "size": 9538222,
-                    "date_published": "2026-08-21T16:37:57.210Z"
                 }
             ]
         },
