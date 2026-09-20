@@ -1,0 +1,6 @@
+{
+    "files.readonlyInclude": {
+        "kubejs/**/common.gen/**/*": true,
+    },
+    "editor.tabSize": 2
+}
