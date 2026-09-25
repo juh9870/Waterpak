@@ -99,6 +99,11 @@ let populateClickRecipeCache = () => {
     clickRecipeCache[recipe.bottomItem] = c;
     c.push(recipe);
   }
+  for (const recipe of clickRepairRecipes()) {
+    let c = clickRecipeCache[recipe.bottomItem] ?? [];
+    clickRecipeCache[recipe.bottomItem] = c;
+    c.push(recipe);
+  }
 
   return clickRecipeCache;
 };

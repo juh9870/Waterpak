@@ -59,4 +59,13 @@ const API = {
     });
     return /** @type {RegistryTypes.Item[]} */ (ids);
   },
+
+  /**
+   *
+   * @param {string} item
+   * @returns {item is RegistryTypes.Item}
+   */
+  itemExists: (item) => {
+    return Item.exists(item);
+  },
 };

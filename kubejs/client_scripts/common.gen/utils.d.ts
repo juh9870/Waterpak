@@ -16,6 +16,11 @@ declare module '@package/net/minecraft/world/item' {
         id: RegistryTypes.Item;
         count?: number;
       };
+
+  export interface $ItemStack {
+    getId(): RegistryTypes.Item;
+    get id(): RegistryTypes.Item;
+  }
 }
 
 declare module '@package/net/neoforged/neoforge/fluids' {
@@ -154,4 +159,14 @@ declare module '@package/net/minecraft/core' {
 
 declare module '@package/net/minecraft/world/item/enchantment' {
   export type $ItemEnchantments_ = { [key in RegistryTypes.Enchantment]?: number } | $ItemEnchantments;
+}
+
+// declare module "@package/dev/latvian/mods/kubejs/plugin/builtin/wrapper" {
+//   class $ItemWrapper {
+//     static exists(id: $ResourceLocation_): id is RegistryTypes.Item;
+//   }
+// }
+
+declare global {
+  let Item = {};
 }
