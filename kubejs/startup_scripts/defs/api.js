@@ -6,6 +6,7 @@ global.KNOWN_BLUEPRINTS = {};
 global.RECIPE_INVENTORY_ITEM_CLICK = [];
 global.TAG_GROUPINGS = {};
 global.ITEM_FLIPS = [];
+global.ONCE_EVENTS = [];
 
 const REG = {
   /**

@@ -2,8 +2,12 @@
 
 /**
  * @import { RegistryTypes } from "@special/types"
- * @import { $ItemStack_ as ItemStack } from '@package/net/minecraft/world/item'
+ * @import { $ItemStackKJS } from '@package/dev/latvian/mods/kubejs/core'
+ * @import { $Enchantment } from '@package/net/minecraft/world/item/enchantment'
+ * @import { $ItemStack_ as ItemStack, $ItemStack } from '@package/net/minecraft/world/item'
  * @import { $Ingredient_ as IngredientInfo } from "@package/net/minecraft/world/item/crafting"
+ * @import { $Holder } from '@package/net/minecraft/core'
+ * @import { $MinecraftServer } from "@package/net/minecraft/server"
  * @import { MachineGroupData, MachineBlueprint, EventPayload, RecipeInventoryItemClick, TagGrouping } from "./types"
  */
 

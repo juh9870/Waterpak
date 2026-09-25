@@ -5,6 +5,7 @@ declare const global: {
   RECIPE_INVENTORY_ITEM_CLICK: RecipeInventoryItemClick[];
   TAG_GROUPINGS: Record<string, TagGrouping>;
   ITEM_FLIPS: ItemFlip[];
+  ONCE_EVENTS: ((server: $MinecraftServer) => void)[];
 };
 
 declare module '@package/net/minecraft/world/item' {
@@ -144,4 +145,8 @@ interface ObjectConstructor {
 
 declare module '@package/net/minecraft/core' {
   export type $BlockPos_ = $BlockPos | [x: number, y: number, z: number];
+  export type $Holder_<T> = RegistryTypes.ResolveObject<T> | $Holder<T>;
+  export interface $Holder<T> {
+    unwrapKey(): { get: () => $ResourceKey<T> };
+  }
 }

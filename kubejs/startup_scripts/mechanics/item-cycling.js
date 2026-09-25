@@ -10,7 +10,7 @@ let $ItemStackedOnOtherEvent = Java.loadClass('net.neoforged.neoforge.event.Item
  * @property {RegistryTypes.Item} bottomItem
  * @property {RegistryTypes.Item} [heldItem]
  * @property {0|1} [clickAction]
- * @property {(event:StackedEventData) => boolean} action
+ * @property {(event:StackedEventData) => boolean} action - returns true if action handled the event and no forther events shall be processed
  */
 
 /**
@@ -92,6 +92,12 @@ let populateClickRecipeCache = () => {
       clickAction: recipe.clickAction === 'primary' ? 0 : recipe.clickAction === 'secondary' ? 1 : undefined,
       action: eventForRecipe(recipe),
     });
+  }
+
+  for (const recipe of clickEnchantmentRecipes()) {
+    let c = clickRecipeCache[recipe.bottomItem] ?? [];
+    clickRecipeCache[recipe.bottomItem] = c;
+    c.push(recipe);
   }
 
   return clickRecipeCache;

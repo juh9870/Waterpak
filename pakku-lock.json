@@ -2206,6 +2206,43 @@
             ]
         },
         {
+            "pakku_id": "8gFUJrhXRHbu5dCv",
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "enchanted-books-re-covered"
+            },
+            "name": {
+                "curseforge": "Enchanted Books: Re-covered"
+            },
+            "id": {
+                "curseforge": "1232814"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Re-covered.zip",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8770/797/Re-covered.zip",
+                    "id": "8770797",
+                    "parent_id": "1232814",
+                    "hashes": {
+                        "sha1": "7220959efcc8d8c9d9a59997371bdec5d4c8971f",
+                        "md5": "ea51a96460ba87d758014d86ead4e583"
+                    },
+                    "required_dependencies": [
+                        "521427"
+                    ],
+                    "size": 126759,
+                    "date_published": "2026-08-30T16:13:10.120Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "xR8Ga3mUIyBLnROM",
             "type": "MOD",
             "slug": {
@@ -2482,6 +2519,42 @@
                     ],
                     "size": 182579,
                     "date_published": "2026-07-14T10:22:17.860Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "IeNH6tAJbYOsQLct",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "forge-cit"
+            },
+            "name": {
+                "curseforge": "Forge CIT"
+            },
+            "id": {
+                "curseforge": "912099"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "citresewn-neoforge-1.21.1-0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6250/427/citresewn-neoforge-1.21.1-0.jar",
+                    "id": "6250427",
+                    "parent_id": "912099",
+                    "hashes": {
+                        "sha1": "bda1b3a3f23d8dd1309055b00f9e8bc64b4f7469",
+                        "md5": "99cb6fc7c4495870d01301c4bc2b0fcf"
+                    },
+                    "required_dependencies": [],
+                    "size": 203987,
+                    "date_published": "2025-03-01T09:19:52.013Z"
                 }
             ]
         },
