@@ -146,6 +146,10 @@ interface ObjectConstructor {
 declare module '@package/net/minecraft/core' {
   export type $BlockPos_ = $BlockPos | [x: number, y: number, z: number];
   export type $Holder_<T> = RegistryTypes.ResolveObject<T> | $Holder<T>;
+
+  export interface $Holder<T> {
+    equals(other: $Holder<T>): boolean;
+  }
 }
 
 declare module '@package/net/minecraft/world/item/enchantment' {

@@ -3,9 +3,6 @@
  */
 function clickEnchantmentRecipes() {
   /**
-   * @import { $ItemEnchantments$Mutable as EnchantmentsMutable, $EnchantmentHelper as EnchantmentHelper, $Enchantment as Enchantment } from '@package/net/minecraft/world/item/enchantment'
-   */
-  /**
    * @type {typeof EnchantmentsMutable}
    */
   const $ItemEnchantments$Mutable = Java.loadClass('net.minecraft.world.item.enchantment.ItemEnchantments$Mutable');

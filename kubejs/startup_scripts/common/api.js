@@ -6,6 +6,7 @@
  * @import { $Enchantment } from '@package/net/minecraft/world/item/enchantment'
  * @import { $ItemStack_ as ItemStack, $ItemStack } from '@package/net/minecraft/world/item'
  * @import { $Ingredient_ as IngredientInfo } from "@package/net/minecraft/world/item/crafting"
+ * @import { $ItemEnchantments$Mutable as EnchantmentsMutable, $EnchantmentHelper as EnchantmentHelper, $Enchantment as Enchantment } from '@package/net/minecraft/world/item/enchantment'
  * @import { $Holder } from '@package/net/minecraft/core'
  * @import { $MinecraftServer } from "@package/net/minecraft/server"
  * @import { MachineGroupData, MachineBlueprint, EventPayload, RecipeInventoryItemClick, TagGrouping } from "./types"
